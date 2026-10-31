@@ -1,0 +1,10 @@
+# Vercel Ignore
+android/
+processing-service/
+data/
+server/uploads/
+.gradle/
+.git/
+node_modules/
+.agents/
+releases/

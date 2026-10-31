@@ -1,0 +1,5016 @@
+{
+  "modules": [
+    {
+      "id": "module:ATTENDANCE_SYSTEM_PRD.md",
+      "name": "ATTENDANCE_SYSTEM_PRD",
+      "path": "ATTENDANCE_SYSTEM_PRD.md",
+      "language": "markdown"
+    },
+    {
+      "id": "module:README.md",
+      "name": "README",
+      "path": "README.md",
+      "language": "markdown"
+    },
+    {
+      "id": "module:android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java",
+      "name": "android.app.src.androidTest.java.com.getcapacitor.myapp.ExampleInstrumentedTest",
+      "path": "android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java",
+      "language": "java"
+    },
+    {
+      "id": "module:android/app/src/main/java/com/attendx/app/MainActivity.kt",
+      "name": "android.app.src.main.java.com.attendx.app.MainActivity",
+      "path": "android/app/src/main/java/com/attendx/app/MainActivity.kt",
+      "language": "kotlin"
+    },
+    {
+      "id": "module:android/app/src/main/java/com/attendx/app/api/Api.kt",
+      "name": "android.app.src.main.java.com.attendx.app.api.Api",
+      "path": "android/app/src/main/java/com/attendx/app/api/Api.kt",
+      "language": "kotlin"
+    },
+    {
+      "id": "module:android/app/src/main/java/com/attendx/app/api/SessionStore.kt",
+      "name": "android.app.src.main.java.com.attendx.app.api.SessionStore",
+      "path": "android/app/src/main/java/com/attendx/app/api/SessionStore.kt",
+      "language": "kotlin"
+    },
+    {
+      "id": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "name": "android.app.src.main.java.com.attendx.app.ui.AppRoot",
+      "path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "language": "kotlin"
+    },
+    {
+      "id": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "name": "android.app.src.main.java.com.attendx.app.ui.ChangePasswordScreen",
+      "path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "language": "kotlin"
+    },
+    {
+      "id": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "name": "android.app.src.main.java.com.attendx.app.ui.DashboardScreen",
+      "path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "language": "kotlin"
+    },
+    {
+      "id": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "name": "android.app.src.main.java.com.attendx.app.ui.LoginScreen",
+      "path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "language": "kotlin"
+    },
+    {
+      "id": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "name": "android.app.src.main.java.com.attendx.app.ui.MailCenterScreen",
+      "path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "language": "kotlin"
+    },
+    {
+      "id": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "name": "android.app.src.main.java.com.attendx.app.ui.MarkScreen",
+      "path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "language": "kotlin"
+    },
+    {
+      "id": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "name": "android.app.src.main.java.com.attendx.app.ui.PeopleScreen",
+      "path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "language": "kotlin"
+    },
+    {
+      "id": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "name": "android.app.src.main.java.com.attendx.app.ui.ProfileScreen",
+      "path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "language": "kotlin"
+    },
+    {
+      "id": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "name": "android.app.src.main.java.com.attendx.app.ui.SessionScreen",
+      "path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "language": "kotlin"
+    },
+    {
+      "id": "module:android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "name": "android.app.src.main.java.com.attendx.app.ui.Workspace",
+      "path": "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "language": "kotlin"
+    },
+    {
+      "id": "module:android/app/src/main/java/com/attendx/app/ui/theme/Theme.kt",
+      "name": "android.app.src.main.java.com.attendx.app.ui.theme.Theme",
+      "path": "android/app/src/main/java/com/attendx/app/ui/theme/Theme.kt",
+      "language": "kotlin"
+    },
+    {
+      "id": "module:android/app/src/main/java/in/attendx/app/DeveloperModePlugin.java",
+      "name": "android.app.src.main.java.in.attendx.app.DeveloperModePlugin",
+      "path": "android/app/src/main/java/in/attendx/app/DeveloperModePlugin.java",
+      "language": "java"
+    },
+    {
+      "id": "module:android/app/src/main/java/in/attendx/app/MainActivity.java",
+      "name": "android.app.src.main.java.in.attendx.app.MainActivity",
+      "path": "android/app/src/main/java/in/attendx/app/MainActivity.java",
+      "language": "java"
+    },
+    {
+      "id": "module:android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java",
+      "name": "android.app.src.test.java.com.getcapacitor.myapp.ExampleUnitTest",
+      "path": "android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java",
+      "language": "java"
+    },
+    {
+      "id": "module:api/index.ts",
+      "name": "api.index",
+      "path": "api/index.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:capacitor.config.ts",
+      "name": "capacitor.config",
+      "path": "capacitor.config.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:freebuff-chat-2026-09-06T19-19-19.898Z.md",
+      "name": "freebuff-chat-2026-09-06T19-19-19.898Z",
+      "path": "freebuff-chat-2026-09-06T19-19-19.898Z.md",
+      "language": "markdown"
+    },
+    {
+      "id": "module:implementation_plan.md",
+      "name": "implementation_plan",
+      "path": "implementation_plan.md",
+      "language": "markdown"
+    },
+    {
+      "id": "module:index.html",
+      "name": "index",
+      "path": "index.html",
+      "language": "html"
+    },
+    {
+      "id": "module:mongodb-atlas/appservices.json",
+      "name": "mongodb-atlas.appservices",
+      "path": "mongodb-atlas/appservices.json",
+      "language": "json"
+    },
+    {
+      "id": "module:mongodb-atlas/functions/issueQr.js",
+      "name": "mongodb-atlas.functions.issueQr",
+      "path": "mongodb-atlas/functions/issueQr.js",
+      "language": "javascript"
+    },
+    {
+      "id": "module:mongodb-atlas/functions/submitAttendance.js",
+      "name": "mongodb-atlas.functions.submitAttendance",
+      "path": "mongodb-atlas/functions/submitAttendance.js",
+      "language": "javascript"
+    },
+    {
+      "id": "module:package-lock.json",
+      "name": "package-lock",
+      "path": "package-lock.json",
+      "language": "json"
+    },
+    {
+      "id": "module:package.json",
+      "name": "package",
+      "path": "package.json",
+      "language": "json"
+    },
+    {
+      "id": "module:processing-service/README.md",
+      "name": "processing-service.README",
+      "path": "processing-service/README.md",
+      "language": "markdown"
+    },
+    {
+      "id": "module:processing-service/app/main.py",
+      "name": "processing-service.app.main",
+      "path": "processing-service/app/main.py",
+      "language": "python"
+    },
+    {
+      "id": "module:processing-service/requirements.txt",
+      "name": "processing-service.requirements",
+      "path": "processing-service/requirements.txt",
+      "language": "text"
+    },
+    {
+      "id": "module:release_notes_v1.0.8.md",
+      "name": "release_notes_v1.0.8",
+      "path": "release_notes_v1.0.8.md",
+      "language": "markdown"
+    },
+    {
+      "id": "module:release_notes_v2.0.0.md",
+      "name": "release_notes_v2.0.0",
+      "path": "release_notes_v2.0.0.md",
+      "language": "markdown"
+    },
+    {
+      "id": "module:releases/RELEASE_NOTES.md",
+      "name": "releases.RELEASE_NOTES",
+      "path": "releases/RELEASE_NOTES.md",
+      "language": "markdown"
+    },
+    {
+      "id": "module:scripts/start-local.sh",
+      "name": "scripts.start-local",
+      "path": "scripts/start-local.sh",
+      "language": "shell"
+    },
+    {
+      "id": "module:server/package-lock.json",
+      "name": "server.package-lock",
+      "path": "server/package-lock.json",
+      "language": "json"
+    },
+    {
+      "id": "module:server/package.json",
+      "name": "server.package",
+      "path": "server/package.json",
+      "language": "json"
+    },
+    {
+      "id": "module:server/src/account.ts",
+      "name": "server.src.account",
+      "path": "server/src/account.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:server/src/appUpdate.ts",
+      "name": "server.src.appUpdate",
+      "path": "server/src/appUpdate.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:server/src/auth.ts",
+      "name": "server.src.auth",
+      "path": "server/src/auth.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:server/src/data.ts",
+      "name": "server.src.data",
+      "path": "server/src/data.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:server/src/db.ts",
+      "name": "server.src.db",
+      "path": "server/src/db.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:server/src/directory.ts",
+      "name": "server.src.directory",
+      "path": "server/src/directory.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:server/src/faculty.ts",
+      "name": "server.src.faculty",
+      "path": "server/src/faculty.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:server/src/functions.ts",
+      "name": "server.src.functions",
+      "path": "server/src/functions.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:server/src/index.ts",
+      "name": "server.src.index",
+      "path": "server/src/index.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:server/src/localAi.ts",
+      "name": "server.src.localAi",
+      "path": "server/src/localAi.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:server/src/mailer.ts",
+      "name": "server.src.mailer",
+      "path": "server/src/mailer.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:server/src/massMail.ts",
+      "name": "server.src.massMail",
+      "path": "server/src/massMail.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:server/src/notices.ts",
+      "name": "server.src.notices",
+      "path": "server/src/notices.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:server/src/otp.ts",
+      "name": "server.src.otp",
+      "path": "server/src/otp.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:server/src/queries.ts",
+      "name": "server.src.queries",
+      "path": "server/src/queries.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:server/src/runtimePaths.ts",
+      "name": "server.src.runtimePaths",
+      "path": "server/src/runtimePaths.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:server/src/sync.ts",
+      "name": "server.src.sync",
+      "path": "server/src/sync.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:server/src/userStatus.ts",
+      "name": "server.src.userStatus",
+      "path": "server/src/userStatus.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:src/App.tsx",
+      "name": "src.App",
+      "path": "src/App.tsx",
+      "language": "typescript"
+    },
+    {
+      "id": "module:src/components/ApplicationErrorBoundary.tsx",
+      "name": "src.components.ApplicationErrorBoundary",
+      "path": "src/components/ApplicationErrorBoundary.tsx",
+      "language": "typescript"
+    },
+    {
+      "id": "module:src/components/CameraCapture.tsx",
+      "name": "src.components.CameraCapture",
+      "path": "src/components/CameraCapture.tsx",
+      "language": "typescript"
+    },
+    {
+      "id": "module:src/components/Landing.tsx",
+      "name": "src.components.Landing",
+      "path": "src/components/Landing.tsx",
+      "language": "typescript"
+    },
+    {
+      "id": "module:src/components/MailCenter.tsx",
+      "name": "src.components.MailCenter",
+      "path": "src/components/MailCenter.tsx",
+      "language": "typescript"
+    },
+    {
+      "id": "module:src/components/OtpModal.tsx",
+      "name": "src.components.OtpModal",
+      "path": "src/components/OtpModal.tsx",
+      "language": "typescript"
+    },
+    {
+      "id": "module:src/components/QrScanner.tsx",
+      "name": "src.components.QrScanner",
+      "path": "src/components/QrScanner.tsx",
+      "language": "typescript"
+    },
+    {
+      "id": "module:src/components/ServerAndSyncSettings.tsx",
+      "name": "src.components.ServerAndSyncSettings",
+      "path": "src/components/ServerAndSyncSettings.tsx",
+      "language": "typescript"
+    },
+    {
+      "id": "module:src/components/Shell.tsx",
+      "name": "src.components.Shell",
+      "path": "src/components/Shell.tsx",
+      "language": "typescript"
+    },
+    {
+      "id": "module:src/components/UpdateBanner.tsx",
+      "name": "src.components.UpdateBanner",
+      "path": "src/components/UpdateBanner.tsx",
+      "language": "typescript"
+    },
+    {
+      "id": "module:src/components/ui.tsx",
+      "name": "src.components.ui",
+      "path": "src/components/ui.tsx",
+      "language": "typescript"
+    },
+    {
+      "id": "module:src/featureStyles.css",
+      "name": "src.featureStyles",
+      "path": "src/featureStyles.css",
+      "language": "css"
+    },
+    {
+      "id": "module:src/landing.css",
+      "name": "src.landing",
+      "path": "src/landing.css",
+      "language": "css"
+    },
+    {
+      "id": "module:src/lib/apiClient.ts",
+      "name": "src.lib.apiClient",
+      "path": "src/lib/apiClient.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:src/lib/appVersion.ts",
+      "name": "src.lib.appVersion",
+      "path": "src/lib/appVersion.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:src/lib/consoleGuard.ts",
+      "name": "src.lib.consoleGuard",
+      "path": "src/lib/consoleGuard.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:src/lib/deviceIntegrity.ts",
+      "name": "src.lib.deviceIntegrity",
+      "path": "src/lib/deviceIntegrity.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:src/lib/platform.ts",
+      "name": "src.lib.platform",
+      "path": "src/lib/platform.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:src/lib/supabase.ts",
+      "name": "src.lib.supabase",
+      "path": "src/lib/supabase.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:src/main.tsx",
+      "name": "src.main",
+      "path": "src/main.tsx",
+      "language": "typescript"
+    },
+    {
+      "id": "module:src/store.ts",
+      "name": "src.store",
+      "path": "src/store.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:src/styles.css",
+      "name": "src.styles",
+      "path": "src/styles.css",
+      "language": "css"
+    },
+    {
+      "id": "module:src/types.ts",
+      "name": "src.types",
+      "path": "src/types.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:src/views.tsx",
+      "name": "src.views",
+      "path": "src/views.tsx",
+      "language": "typescript"
+    },
+    {
+      "id": "module:src/vite-env.d.ts",
+      "name": "src.vite-env.d",
+      "path": "src/vite-env.d.ts",
+      "language": "typescript"
+    },
+    {
+      "id": "module:tsconfig.app.json",
+      "name": "tsconfig.app",
+      "path": "tsconfig.app.json",
+      "language": "json"
+    },
+    {
+      "id": "module:tsconfig.json",
+      "name": "tsconfig",
+      "path": "tsconfig.json",
+      "language": "json"
+    },
+    {
+      "id": "module:tsconfig.node.json",
+      "name": "tsconfig.node",
+      "path": "tsconfig.node.json",
+      "language": "json"
+    },
+    {
+      "id": "module:vercel.json",
+      "name": "vercel",
+      "path": "vercel.json",
+      "language": "json"
+    },
+    {
+      "id": "module:vite.config.ts",
+      "name": "vite.config",
+      "path": "vite.config.ts",
+      "language": "typescript"
+    }
+  ],
+  "imports": [
+    {
+      "source": "module:android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java",
+      "source_path": "android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java",
+      "target": "static",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java",
+      "source_path": "android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java",
+      "target": "android.content.Context",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java",
+      "source_path": "android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java",
+      "target": "androidx.test.ext.junit.runners.AndroidJUnit4",
+      "target_module": null,
+      "kind": "import",
+      "line": 6
+    },
+    {
+      "source": "module:android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java",
+      "source_path": "android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java",
+      "target": "androidx.test.platform.app.InstrumentationRegistry",
+      "target_module": null,
+      "kind": "import",
+      "line": 7
+    },
+    {
+      "source": "module:android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java",
+      "source_path": "android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java",
+      "target": "org.junit.Test",
+      "target_module": null,
+      "kind": "import",
+      "line": 8
+    },
+    {
+      "source": "module:android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java",
+      "source_path": "android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java",
+      "target": "org.junit.runner.RunWith",
+      "target_module": null,
+      "kind": "import",
+      "line": 9
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/MainActivity.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/MainActivity.kt",
+      "target": "android.os.Bundle",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/MainActivity.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/MainActivity.kt",
+      "target": "androidx.activity.ComponentActivity",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/MainActivity.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/MainActivity.kt",
+      "target": "androidx.activity.compose.setContent",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/MainActivity.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/MainActivity.kt",
+      "target": "androidx.activity.enableEdgeToEdge",
+      "target_module": null,
+      "kind": "import",
+      "line": 6
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/MainActivity.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/MainActivity.kt",
+      "target": "com.attendx.app.ui.AppRoot",
+      "target_module": null,
+      "kind": "import",
+      "line": 7
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/api/Api.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/api/Api.kt",
+      "target": "android.content.Context",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/api/Api.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/api/Api.kt",
+      "target": "kotlinx.coroutines.Dispatchers",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/api/Api.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/api/Api.kt",
+      "target": "kotlinx.coroutines.withContext",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/api/Api.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/api/Api.kt",
+      "target": "okhttp3.MediaType.Companion.toMediaType",
+      "target_module": null,
+      "kind": "import",
+      "line": 6
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/api/Api.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/api/Api.kt",
+      "target": "okhttp3.OkHttpClient",
+      "target_module": null,
+      "kind": "import",
+      "line": 7
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/api/Api.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/api/Api.kt",
+      "target": "okhttp3.Request",
+      "target_module": null,
+      "kind": "import",
+      "line": 8
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/api/Api.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/api/Api.kt",
+      "target": "okhttp3.RequestBody.Companion.toRequestBody",
+      "target_module": null,
+      "kind": "import",
+      "line": 9
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/api/Api.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/api/Api.kt",
+      "target": "org.json.JSONArray",
+      "target_module": null,
+      "kind": "import",
+      "line": 10
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/api/Api.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/api/Api.kt",
+      "target": "org.json.JSONObject",
+      "target_module": null,
+      "kind": "import",
+      "line": 11
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/api/Api.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/api/Api.kt",
+      "target": "java.util.concurrent.TimeUnit",
+      "target_module": null,
+      "kind": "import",
+      "line": 12
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/api/SessionStore.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/api/SessionStore.kt",
+      "target": "android.content.Context",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/api/SessionStore.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/api/SessionStore.kt",
+      "target": "org.json.JSONObject",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "android.content.Context",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "android.provider.Settings",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "androidx.compose.foundation.layout.Arrangement",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "androidx.compose.foundation.layout.Column",
+      "target_module": null,
+      "kind": "import",
+      "line": 6
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "androidx.compose.foundation.layout.fillMaxSize",
+      "target_module": null,
+      "kind": "import",
+      "line": 7
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "androidx.compose.foundation.layout.padding",
+      "target_module": null,
+      "kind": "import",
+      "line": 8
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "androidx.compose.foundation.layout.safeDrawingPadding",
+      "target_module": null,
+      "kind": "import",
+      "line": 9
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "androidx.compose.material.icons.Icons",
+      "target_module": null,
+      "kind": "import",
+      "line": 10
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "androidx.compose.material.icons.filled.Shield",
+      "target_module": null,
+      "kind": "import",
+      "line": 11
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "androidx.compose.material3.Button",
+      "target_module": null,
+      "kind": "import",
+      "line": 12
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "androidx.compose.material3.Icon",
+      "target_module": null,
+      "kind": "import",
+      "line": 13
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "androidx.compose.material3.MaterialTheme",
+      "target_module": null,
+      "kind": "import",
+      "line": 14
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "androidx.compose.material3.Scaffold",
+      "target_module": null,
+      "kind": "import",
+      "line": 15
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "androidx.compose.material3.Text",
+      "target_module": null,
+      "kind": "import",
+      "line": 16
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "androidx.compose.runtime.Composable",
+      "target_module": null,
+      "kind": "import",
+      "line": 17
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "androidx.compose.runtime.LaunchedEffect",
+      "target_module": null,
+      "kind": "import",
+      "line": 18
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "androidx.compose.runtime.getValue",
+      "target_module": null,
+      "kind": "import",
+      "line": 19
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "androidx.compose.runtime.mutableStateOf",
+      "target_module": null,
+      "kind": "import",
+      "line": 20
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "androidx.compose.runtime.remember",
+      "target_module": null,
+      "kind": "import",
+      "line": 21
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "androidx.compose.runtime.setValue",
+      "target_module": null,
+      "kind": "import",
+      "line": 22
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "androidx.compose.ui.Alignment",
+      "target_module": null,
+      "kind": "import",
+      "line": 23
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "androidx.compose.ui.Modifier",
+      "target_module": null,
+      "kind": "import",
+      "line": 24
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "androidx.compose.ui.platform.LocalContext",
+      "target_module": null,
+      "kind": "import",
+      "line": 25
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "androidx.compose.ui.text.style.TextAlign",
+      "target_module": null,
+      "kind": "import",
+      "line": 26
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "androidx.compose.ui.unit.dp",
+      "target_module": null,
+      "kind": "import",
+      "line": 27
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "com.attendx.app.api.Api",
+      "target_module": null,
+      "kind": "import",
+      "line": 28
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "com.attendx.app.api.Session",
+      "target_module": null,
+      "kind": "import",
+      "line": 29
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "com.attendx.app.api.SessionStore",
+      "target_module": null,
+      "kind": "import",
+      "line": 30
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+      "target": "com.attendx.app.ui.theme.AttendXTheme",
+      "target_module": null,
+      "kind": "import",
+      "line": 31
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "androidx.compose.foundation.layout.Column",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "androidx.compose.foundation.layout.Spacer",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "androidx.compose.foundation.layout.fillMaxSize",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "androidx.compose.foundation.layout.fillMaxWidth",
+      "target_module": null,
+      "kind": "import",
+      "line": 6
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "androidx.compose.foundation.layout.height",
+      "target_module": null,
+      "kind": "import",
+      "line": 7
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "androidx.compose.foundation.layout.padding",
+      "target_module": null,
+      "kind": "import",
+      "line": 8
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "androidx.compose.material3.Button",
+      "target_module": null,
+      "kind": "import",
+      "line": 9
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "androidx.compose.material3.MaterialTheme",
+      "target_module": null,
+      "kind": "import",
+      "line": 10
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "androidx.compose.material3.OutlinedTextField",
+      "target_module": null,
+      "kind": "import",
+      "line": 11
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "androidx.compose.material3.Text",
+      "target_module": null,
+      "kind": "import",
+      "line": 12
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "androidx.compose.material3.TextButton",
+      "target_module": null,
+      "kind": "import",
+      "line": 13
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "androidx.compose.runtime.Composable",
+      "target_module": null,
+      "kind": "import",
+      "line": 14
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "androidx.compose.runtime.getValue",
+      "target_module": null,
+      "kind": "import",
+      "line": 15
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "androidx.compose.runtime.mutableStateOf",
+      "target_module": null,
+      "kind": "import",
+      "line": 16
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "androidx.compose.runtime.remember",
+      "target_module": null,
+      "kind": "import",
+      "line": 17
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "androidx.compose.runtime.rememberCoroutineScope",
+      "target_module": null,
+      "kind": "import",
+      "line": 18
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "androidx.compose.runtime.setValue",
+      "target_module": null,
+      "kind": "import",
+      "line": 19
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "androidx.compose.ui.Alignment",
+      "target_module": null,
+      "kind": "import",
+      "line": 20
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "androidx.compose.ui.Modifier",
+      "target_module": null,
+      "kind": "import",
+      "line": 21
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "androidx.compose.ui.text.input.PasswordVisualTransformation",
+      "target_module": null,
+      "kind": "import",
+      "line": 22
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "androidx.compose.ui.unit.dp",
+      "target_module": null,
+      "kind": "import",
+      "line": 23
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "com.attendx.app.api.Api",
+      "target_module": null,
+      "kind": "import",
+      "line": 24
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "com.attendx.app.api.ApiException",
+      "target_module": null,
+      "kind": "import",
+      "line": 25
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "kotlinx.coroutines.launch",
+      "target_module": null,
+      "kind": "import",
+      "line": 26
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+      "target": "org.json.JSONObject",
+      "target_module": null,
+      "kind": "import",
+      "line": 27
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.foundation.layout.Arrangement",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.foundation.layout.Column",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.foundation.layout.Row",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.foundation.layout.Spacer",
+      "target_module": null,
+      "kind": "import",
+      "line": 6
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.foundation.layout.fillMaxWidth",
+      "target_module": null,
+      "kind": "import",
+      "line": 7
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.foundation.layout.height",
+      "target_module": null,
+      "kind": "import",
+      "line": 8
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.foundation.layout.padding",
+      "target_module": null,
+      "kind": "import",
+      "line": 9
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.foundation.layout.width",
+      "target_module": null,
+      "kind": "import",
+      "line": 10
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.foundation.rememberScrollState",
+      "target_module": null,
+      "kind": "import",
+      "line": 11
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.foundation.verticalScroll",
+      "target_module": null,
+      "kind": "import",
+      "line": 12
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.material.icons.Icons",
+      "target_module": null,
+      "kind": "import",
+      "line": 13
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.material.icons.filled.CheckCircle",
+      "target_module": null,
+      "kind": "import",
+      "line": 14
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.material3.Card",
+      "target_module": null,
+      "kind": "import",
+      "line": 15
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.material3.CircularProgressIndicator",
+      "target_module": null,
+      "kind": "import",
+      "line": 16
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.material3.Icon",
+      "target_module": null,
+      "kind": "import",
+      "line": 17
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.material3.MaterialTheme",
+      "target_module": null,
+      "kind": "import",
+      "line": 18
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.material3.Text",
+      "target_module": null,
+      "kind": "import",
+      "line": 19
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.runtime.Composable",
+      "target_module": null,
+      "kind": "import",
+      "line": 20
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.runtime.LaunchedEffect",
+      "target_module": null,
+      "kind": "import",
+      "line": 21
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.runtime.getValue",
+      "target_module": null,
+      "kind": "import",
+      "line": 22
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.runtime.mutableStateOf",
+      "target_module": null,
+      "kind": "import",
+      "line": 23
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.runtime.remember",
+      "target_module": null,
+      "kind": "import",
+      "line": 24
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.runtime.setValue",
+      "target_module": null,
+      "kind": "import",
+      "line": 25
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.ui.Alignment",
+      "target_module": null,
+      "kind": "import",
+      "line": 26
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.ui.Modifier",
+      "target_module": null,
+      "kind": "import",
+      "line": 27
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.ui.text.font.FontWeight",
+      "target_module": null,
+      "kind": "import",
+      "line": 28
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "androidx.compose.ui.unit.dp",
+      "target_module": null,
+      "kind": "import",
+      "line": 29
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "com.attendx.app.api.Api",
+      "target_module": null,
+      "kind": "import",
+      "line": 30
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "com.attendx.app.api.Session",
+      "target_module": null,
+      "kind": "import",
+      "line": 31
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+      "target": "org.json.JSONArray",
+      "target_module": null,
+      "kind": "import",
+      "line": 32
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.foundation.layout.Arrangement",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.foundation.layout.Column",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.foundation.layout.Row",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.foundation.layout.Spacer",
+      "target_module": null,
+      "kind": "import",
+      "line": 6
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.foundation.layout.fillMaxSize",
+      "target_module": null,
+      "kind": "import",
+      "line": 7
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.foundation.layout.fillMaxWidth",
+      "target_module": null,
+      "kind": "import",
+      "line": 8
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.foundation.layout.height",
+      "target_module": null,
+      "kind": "import",
+      "line": 9
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.foundation.layout.padding",
+      "target_module": null,
+      "kind": "import",
+      "line": 10
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.foundation.layout.width",
+      "target_module": null,
+      "kind": "import",
+      "line": 11
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.foundation.rememberScrollState",
+      "target_module": null,
+      "kind": "import",
+      "line": 12
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.foundation.text.KeyboardOptions",
+      "target_module": null,
+      "kind": "import",
+      "line": 13
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.foundation.verticalScroll",
+      "target_module": null,
+      "kind": "import",
+      "line": 14
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.material3.Button",
+      "target_module": null,
+      "kind": "import",
+      "line": 15
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.material3.Card",
+      "target_module": null,
+      "kind": "import",
+      "line": 16
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.material3.CardDefaults",
+      "target_module": null,
+      "kind": "import",
+      "line": 17
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.material3.CircularProgressIndicator",
+      "target_module": null,
+      "kind": "import",
+      "line": 18
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.material3.MaterialTheme",
+      "target_module": null,
+      "kind": "import",
+      "line": 19
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.material3.OutlinedTextField",
+      "target_module": null,
+      "kind": "import",
+      "line": 20
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.material3.Surface",
+      "target_module": null,
+      "kind": "import",
+      "line": 21
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.material3.Text",
+      "target_module": null,
+      "kind": "import",
+      "line": 22
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.material3.TextButton",
+      "target_module": null,
+      "kind": "import",
+      "line": 23
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.runtime.Composable",
+      "target_module": null,
+      "kind": "import",
+      "line": 24
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.runtime.getValue",
+      "target_module": null,
+      "kind": "import",
+      "line": 25
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.runtime.mutableStateOf",
+      "target_module": null,
+      "kind": "import",
+      "line": 26
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.runtime.remember",
+      "target_module": null,
+      "kind": "import",
+      "line": 27
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.runtime.rememberCoroutineScope",
+      "target_module": null,
+      "kind": "import",
+      "line": 28
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.runtime.setValue",
+      "target_module": null,
+      "kind": "import",
+      "line": 29
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.ui.Alignment",
+      "target_module": null,
+      "kind": "import",
+      "line": 30
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.ui.Modifier",
+      "target_module": null,
+      "kind": "import",
+      "line": 31
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.ui.text.input.KeyboardType",
+      "target_module": null,
+      "kind": "import",
+      "line": 32
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.ui.text.input.PasswordVisualTransformation",
+      "target_module": null,
+      "kind": "import",
+      "line": 33
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "androidx.compose.ui.unit.dp",
+      "target_module": null,
+      "kind": "import",
+      "line": 34
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "com.attendx.app.api.Api",
+      "target_module": null,
+      "kind": "import",
+      "line": 35
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "com.attendx.app.api.ApiException",
+      "target_module": null,
+      "kind": "import",
+      "line": 36
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "kotlinx.coroutines.launch",
+      "target_module": null,
+      "kind": "import",
+      "line": 37
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+      "target": "org.json.JSONObject",
+      "target_module": null,
+      "kind": "import",
+      "line": 38
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.foundation.layout.Arrangement",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.foundation.layout.Column",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.foundation.layout.Row",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.foundation.layout.Spacer",
+      "target_module": null,
+      "kind": "import",
+      "line": 6
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.foundation.layout.fillMaxWidth",
+      "target_module": null,
+      "kind": "import",
+      "line": 7
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.foundation.layout.height",
+      "target_module": null,
+      "kind": "import",
+      "line": 8
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.foundation.layout.padding",
+      "target_module": null,
+      "kind": "import",
+      "line": 9
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.foundation.layout.width",
+      "target_module": null,
+      "kind": "import",
+      "line": 10
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.foundation.rememberScrollState",
+      "target_module": null,
+      "kind": "import",
+      "line": 11
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.foundation.verticalScroll",
+      "target_module": null,
+      "kind": "import",
+      "line": 12
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.material3.Button",
+      "target_module": null,
+      "kind": "import",
+      "line": 13
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.material3.Card",
+      "target_module": null,
+      "kind": "import",
+      "line": 14
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.material3.CircularProgressIndicator",
+      "target_module": null,
+      "kind": "import",
+      "line": 15
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.material3.DropdownMenuItem",
+      "target_module": null,
+      "kind": "import",
+      "line": 16
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.material3.ExperimentalMaterial3Api",
+      "target_module": null,
+      "kind": "import",
+      "line": 17
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.material3.ExposedDropdownMenuBox",
+      "target_module": null,
+      "kind": "import",
+      "line": 18
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.material3.ExposedDropdownMenuDefaults",
+      "target_module": null,
+      "kind": "import",
+      "line": 19
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.material3.HorizontalDivider",
+      "target_module": null,
+      "kind": "import",
+      "line": 20
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.material3.MaterialTheme",
+      "target_module": null,
+      "kind": "import",
+      "line": 21
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.material3.OutlinedTextField",
+      "target_module": null,
+      "kind": "import",
+      "line": 22
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.material3.Text",
+      "target_module": null,
+      "kind": "import",
+      "line": 23
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.material3.TextButton",
+      "target_module": null,
+      "kind": "import",
+      "line": 24
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.runtime.Composable",
+      "target_module": null,
+      "kind": "import",
+      "line": 25
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.runtime.LaunchedEffect",
+      "target_module": null,
+      "kind": "import",
+      "line": 26
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.runtime.getValue",
+      "target_module": null,
+      "kind": "import",
+      "line": 27
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.runtime.mutableStateOf",
+      "target_module": null,
+      "kind": "import",
+      "line": 28
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.runtime.remember",
+      "target_module": null,
+      "kind": "import",
+      "line": 29
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.runtime.rememberCoroutineScope",
+      "target_module": null,
+      "kind": "import",
+      "line": 30
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.runtime.setValue",
+      "target_module": null,
+      "kind": "import",
+      "line": 31
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.ui.Alignment",
+      "target_module": null,
+      "kind": "import",
+      "line": 32
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.ui.Modifier",
+      "target_module": null,
+      "kind": "import",
+      "line": 33
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.ui.text.font.FontWeight",
+      "target_module": null,
+      "kind": "import",
+      "line": 34
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "androidx.compose.ui.unit.dp",
+      "target_module": null,
+      "kind": "import",
+      "line": 35
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "com.attendx.app.api.Api",
+      "target_module": null,
+      "kind": "import",
+      "line": 36
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "com.attendx.app.api.ApiException",
+      "target_module": null,
+      "kind": "import",
+      "line": 37
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "com.attendx.app.api.Session",
+      "target_module": null,
+      "kind": "import",
+      "line": 38
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "kotlinx.coroutines.launch",
+      "target_module": null,
+      "kind": "import",
+      "line": 39
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "org.json.JSONArray",
+      "target_module": null,
+      "kind": "import",
+      "line": 40
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+      "target": "org.json.JSONObject",
+      "target_module": null,
+      "kind": "import",
+      "line": 41
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "android.Manifest",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "android.content.Context",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "android.content.pm.PackageManager",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "android.location.Location",
+      "target_module": null,
+      "kind": "import",
+      "line": 6
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "android.location.LocationManager",
+      "target_module": null,
+      "kind": "import",
+      "line": 7
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "android.util.Base64",
+      "target_module": null,
+      "kind": "import",
+      "line": 8
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.activity.compose.rememberLauncherForActivityResult",
+      "target_module": null,
+      "kind": "import",
+      "line": 9
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.activity.result.contract.ActivityResultContracts",
+      "target_module": null,
+      "kind": "import",
+      "line": 10
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.camera.core.CameraSelector",
+      "target_module": null,
+      "kind": "import",
+      "line": 11
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.camera.core.ImageAnalysis",
+      "target_module": null,
+      "kind": "import",
+      "line": 12
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.camera.core.ImageCapture",
+      "target_module": null,
+      "kind": "import",
+      "line": 13
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.camera.core.ImageCaptureException",
+      "target_module": null,
+      "kind": "import",
+      "line": 14
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.camera.core.ImageProxy",
+      "target_module": null,
+      "kind": "import",
+      "line": 15
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.camera.core.Preview",
+      "target_module": null,
+      "kind": "import",
+      "line": 16
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.camera.lifecycle.ProcessCameraProvider",
+      "target_module": null,
+      "kind": "import",
+      "line": 17
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.camera.view.PreviewView",
+      "target_module": null,
+      "kind": "import",
+      "line": 18
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.foundation.layout.Column",
+      "target_module": null,
+      "kind": "import",
+      "line": 19
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.foundation.layout.Row",
+      "target_module": null,
+      "kind": "import",
+      "line": 20
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.foundation.layout.Spacer",
+      "target_module": null,
+      "kind": "import",
+      "line": 21
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.foundation.layout.fillMaxSize",
+      "target_module": null,
+      "kind": "import",
+      "line": 22
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.foundation.layout.fillMaxWidth",
+      "target_module": null,
+      "kind": "import",
+      "line": 23
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.foundation.layout.height",
+      "target_module": null,
+      "kind": "import",
+      "line": 24
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.foundation.layout.padding",
+      "target_module": null,
+      "kind": "import",
+      "line": 25
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.foundation.layout.width",
+      "target_module": null,
+      "kind": "import",
+      "line": 26
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.material3.Button",
+      "target_module": null,
+      "kind": "import",
+      "line": 27
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.material3.Card",
+      "target_module": null,
+      "kind": "import",
+      "line": 28
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.material3.CircularProgressIndicator",
+      "target_module": null,
+      "kind": "import",
+      "line": 29
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.material3.MaterialTheme",
+      "target_module": null,
+      "kind": "import",
+      "line": 30
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.material3.Text",
+      "target_module": null,
+      "kind": "import",
+      "line": 31
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.material3.TextButton",
+      "target_module": null,
+      "kind": "import",
+      "line": 32
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.runtime.Composable",
+      "target_module": null,
+      "kind": "import",
+      "line": 33
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.runtime.LaunchedEffect",
+      "target_module": null,
+      "kind": "import",
+      "line": 34
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.runtime.getValue",
+      "target_module": null,
+      "kind": "import",
+      "line": 35
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.runtime.mutableStateOf",
+      "target_module": null,
+      "kind": "import",
+      "line": 36
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.runtime.remember",
+      "target_module": null,
+      "kind": "import",
+      "line": 37
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.runtime.rememberCoroutineScope",
+      "target_module": null,
+      "kind": "import",
+      "line": 38
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.runtime.setValue",
+      "target_module": null,
+      "kind": "import",
+      "line": 39
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.ui.Alignment",
+      "target_module": null,
+      "kind": "import",
+      "line": 40
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.ui.Modifier",
+      "target_module": null,
+      "kind": "import",
+      "line": 41
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.ui.platform.LocalContext",
+      "target_module": null,
+      "kind": "import",
+      "line": 42
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.ui.platform.LocalLifecycleOwner",
+      "target_module": null,
+      "kind": "import",
+      "line": 43
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.ui.text.font.FontWeight",
+      "target_module": null,
+      "kind": "import",
+      "line": 44
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.ui.unit.dp",
+      "target_module": null,
+      "kind": "import",
+      "line": 45
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.compose.ui.viewinterop.AndroidView",
+      "target_module": null,
+      "kind": "import",
+      "line": 46
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "androidx.core.content.ContextCompat",
+      "target_module": null,
+      "kind": "import",
+      "line": 47
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "com.attendx.app.api.Api",
+      "target_module": null,
+      "kind": "import",
+      "line": 48
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "com.attendx.app.api.ApiException",
+      "target_module": null,
+      "kind": "import",
+      "line": 49
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "com.attendx.app.api.Session",
+      "target_module": null,
+      "kind": "import",
+      "line": 50
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "com.google.zxing.BinaryBitmap",
+      "target_module": null,
+      "kind": "import",
+      "line": 51
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "com.google.zxing.MultiFormatReader",
+      "target_module": null,
+      "kind": "import",
+      "line": 52
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "com.google.zxing.RGBLuminanceSource",
+      "target_module": null,
+      "kind": "import",
+      "line": 53
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "com.google.zxing.common.HybridBinarizer",
+      "target_module": null,
+      "kind": "import",
+      "line": 54
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "kotlinx.coroutines.Dispatchers",
+      "target_module": null,
+      "kind": "import",
+      "line": 55
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "kotlinx.coroutines.launch",
+      "target_module": null,
+      "kind": "import",
+      "line": 56
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "kotlinx.coroutines.suspendCancellableCoroutine",
+      "target_module": null,
+      "kind": "import",
+      "line": 57
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "kotlinx.coroutines.withContext",
+      "target_module": null,
+      "kind": "import",
+      "line": 58
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "java.io.File",
+      "target_module": null,
+      "kind": "import",
+      "line": 59
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "java.nio.ByteBuffer",
+      "target_module": null,
+      "kind": "import",
+      "line": 60
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+      "target": "kotlin.coroutines.resume",
+      "target_module": null,
+      "kind": "import",
+      "line": 61
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "androidx.compose.foundation.layout.Column",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "androidx.compose.foundation.layout.Row",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "androidx.compose.foundation.layout.Spacer",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "androidx.compose.foundation.layout.fillMaxSize",
+      "target_module": null,
+      "kind": "import",
+      "line": 6
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "androidx.compose.foundation.layout.fillMaxWidth",
+      "target_module": null,
+      "kind": "import",
+      "line": 7
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "androidx.compose.foundation.layout.height",
+      "target_module": null,
+      "kind": "import",
+      "line": 8
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "androidx.compose.foundation.layout.padding",
+      "target_module": null,
+      "kind": "import",
+      "line": 9
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "androidx.compose.foundation.lazy.LazyColumn",
+      "target_module": null,
+      "kind": "import",
+      "line": 10
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "androidx.compose.foundation.lazy.items",
+      "target_module": null,
+      "kind": "import",
+      "line": 11
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "androidx.compose.material3.Card",
+      "target_module": null,
+      "kind": "import",
+      "line": 12
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "androidx.compose.material3.CircularProgressIndicator",
+      "target_module": null,
+      "kind": "import",
+      "line": 13
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "androidx.compose.material3.MaterialTheme",
+      "target_module": null,
+      "kind": "import",
+      "line": 14
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "androidx.compose.material3.Text",
+      "target_module": null,
+      "kind": "import",
+      "line": 15
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "androidx.compose.runtime.Composable",
+      "target_module": null,
+      "kind": "import",
+      "line": 16
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "androidx.compose.runtime.LaunchedEffect",
+      "target_module": null,
+      "kind": "import",
+      "line": 17
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "androidx.compose.runtime.getValue",
+      "target_module": null,
+      "kind": "import",
+      "line": 18
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "androidx.compose.runtime.mutableStateOf",
+      "target_module": null,
+      "kind": "import",
+      "line": 19
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "androidx.compose.runtime.remember",
+      "target_module": null,
+      "kind": "import",
+      "line": 20
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "androidx.compose.runtime.setValue",
+      "target_module": null,
+      "kind": "import",
+      "line": 21
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "androidx.compose.ui.Alignment",
+      "target_module": null,
+      "kind": "import",
+      "line": 22
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "androidx.compose.ui.Modifier",
+      "target_module": null,
+      "kind": "import",
+      "line": 23
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "androidx.compose.ui.text.font.FontWeight",
+      "target_module": null,
+      "kind": "import",
+      "line": 24
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "androidx.compose.ui.unit.dp",
+      "target_module": null,
+      "kind": "import",
+      "line": 25
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "com.attendx.app.api.Api",
+      "target_module": null,
+      "kind": "import",
+      "line": 26
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+      "target": "org.json.JSONArray",
+      "target_module": null,
+      "kind": "import",
+      "line": 27
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.foundation.layout.Column",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.foundation.layout.Row",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.foundation.layout.Spacer",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.foundation.layout.fillMaxWidth",
+      "target_module": null,
+      "kind": "import",
+      "line": 6
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.foundation.layout.height",
+      "target_module": null,
+      "kind": "import",
+      "line": 7
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.foundation.layout.padding",
+      "target_module": null,
+      "kind": "import",
+      "line": 8
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.foundation.layout.width",
+      "target_module": null,
+      "kind": "import",
+      "line": 9
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.foundation.rememberScrollState",
+      "target_module": null,
+      "kind": "import",
+      "line": 10
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.foundation.verticalScroll",
+      "target_module": null,
+      "kind": "import",
+      "line": 11
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.material3.Button",
+      "target_module": null,
+      "kind": "import",
+      "line": 12
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.material3.Card",
+      "target_module": null,
+      "kind": "import",
+      "line": 13
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.material3.CircularProgressIndicator",
+      "target_module": null,
+      "kind": "import",
+      "line": 14
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.material3.HorizontalDivider",
+      "target_module": null,
+      "kind": "import",
+      "line": 15
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.material3.MaterialTheme",
+      "target_module": null,
+      "kind": "import",
+      "line": 16
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.material3.OutlinedTextField",
+      "target_module": null,
+      "kind": "import",
+      "line": 17
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.material3.Text",
+      "target_module": null,
+      "kind": "import",
+      "line": 18
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.material3.TextButton",
+      "target_module": null,
+      "kind": "import",
+      "line": 19
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.runtime.Composable",
+      "target_module": null,
+      "kind": "import",
+      "line": 20
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.runtime.getValue",
+      "target_module": null,
+      "kind": "import",
+      "line": 21
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.runtime.mutableStateOf",
+      "target_module": null,
+      "kind": "import",
+      "line": 22
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.runtime.remember",
+      "target_module": null,
+      "kind": "import",
+      "line": 23
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.runtime.rememberCoroutineScope",
+      "target_module": null,
+      "kind": "import",
+      "line": 24
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.runtime.setValue",
+      "target_module": null,
+      "kind": "import",
+      "line": 25
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.ui.Modifier",
+      "target_module": null,
+      "kind": "import",
+      "line": 26
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.ui.text.font.FontWeight",
+      "target_module": null,
+      "kind": "import",
+      "line": 27
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "androidx.compose.ui.unit.dp",
+      "target_module": null,
+      "kind": "import",
+      "line": 28
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "com.attendx.app.api.Api",
+      "target_module": null,
+      "kind": "import",
+      "line": 29
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "com.attendx.app.api.Session",
+      "target_module": null,
+      "kind": "import",
+      "line": 30
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+      "target": "kotlinx.coroutines.launch",
+      "target_module": null,
+      "kind": "import",
+      "line": 31
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "android.content.Context",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "android.graphics.Bitmap",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "android.location.Location",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "android.location.LocationManager",
+      "target_module": null,
+      "kind": "import",
+      "line": 6
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.foundation.Image",
+      "target_module": null,
+      "kind": "import",
+      "line": 7
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.foundation.layout.Column",
+      "target_module": null,
+      "kind": "import",
+      "line": 8
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.foundation.layout.Row",
+      "target_module": null,
+      "kind": "import",
+      "line": 9
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.foundation.layout.Spacer",
+      "target_module": null,
+      "kind": "import",
+      "line": 10
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.foundation.layout.fillMaxSize",
+      "target_module": null,
+      "kind": "import",
+      "line": 11
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.foundation.layout.fillMaxWidth",
+      "target_module": null,
+      "kind": "import",
+      "line": 12
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.foundation.layout.height",
+      "target_module": null,
+      "kind": "import",
+      "line": 13
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.foundation.layout.padding",
+      "target_module": null,
+      "kind": "import",
+      "line": 14
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.foundation.layout.width",
+      "target_module": null,
+      "kind": "import",
+      "line": 15
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.foundation.rememberScrollState",
+      "target_module": null,
+      "kind": "import",
+      "line": 16
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.foundation.verticalScroll",
+      "target_module": null,
+      "kind": "import",
+      "line": 17
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.material3.Button",
+      "target_module": null,
+      "kind": "import",
+      "line": 18
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.material3.Card",
+      "target_module": null,
+      "kind": "import",
+      "line": 19
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.material3.CircularProgressIndicator",
+      "target_module": null,
+      "kind": "import",
+      "line": 20
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.material3.DropdownMenuItem",
+      "target_module": null,
+      "kind": "import",
+      "line": 21
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.material3.ExperimentalMaterial3Api",
+      "target_module": null,
+      "kind": "import",
+      "line": 22
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.material3.ExposedDropdownMenuBox",
+      "target_module": null,
+      "kind": "import",
+      "line": 23
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.material3.ExposedDropdownMenuDefaults",
+      "target_module": null,
+      "kind": "import",
+      "line": 24
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.material3.MaterialTheme",
+      "target_module": null,
+      "kind": "import",
+      "line": 25
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.material3.OutlinedTextField",
+      "target_module": null,
+      "kind": "import",
+      "line": 26
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.material3.Text",
+      "target_module": null,
+      "kind": "import",
+      "line": 27
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.material3.TextButton",
+      "target_module": null,
+      "kind": "import",
+      "line": 28
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.runtime.Composable",
+      "target_module": null,
+      "kind": "import",
+      "line": 29
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.runtime.LaunchedEffect",
+      "target_module": null,
+      "kind": "import",
+      "line": 30
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.runtime.getValue",
+      "target_module": null,
+      "kind": "import",
+      "line": 31
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.runtime.mutableStateOf",
+      "target_module": null,
+      "kind": "import",
+      "line": 32
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.runtime.remember",
+      "target_module": null,
+      "kind": "import",
+      "line": 33
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.runtime.rememberCoroutineScope",
+      "target_module": null,
+      "kind": "import",
+      "line": 34
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.runtime.setValue",
+      "target_module": null,
+      "kind": "import",
+      "line": 35
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.ui.Alignment",
+      "target_module": null,
+      "kind": "import",
+      "line": 36
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.ui.Modifier",
+      "target_module": null,
+      "kind": "import",
+      "line": 37
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.ui.graphics.asImageBitmap",
+      "target_module": null,
+      "kind": "import",
+      "line": 38
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.ui.platform.LocalContext",
+      "target_module": null,
+      "kind": "import",
+      "line": 39
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "androidx.compose.ui.unit.dp",
+      "target_module": null,
+      "kind": "import",
+      "line": 40
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "com.attendx.app.api.Api",
+      "target_module": null,
+      "kind": "import",
+      "line": 41
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "com.attendx.app.api.Session",
+      "target_module": null,
+      "kind": "import",
+      "line": 42
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "com.google.zxing.BarcodeFormat",
+      "target_module": null,
+      "kind": "import",
+      "line": 43
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "com.google.zxing.EncodeHintType",
+      "target_module": null,
+      "kind": "import",
+      "line": 44
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "com.google.zxing.MultiFormatWriter",
+      "target_module": null,
+      "kind": "import",
+      "line": 45
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "com.google.zxing.common.BitMatrix",
+      "target_module": null,
+      "kind": "import",
+      "line": 46
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "kotlinx.coroutines.delay",
+      "target_module": null,
+      "kind": "import",
+      "line": 47
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "kotlinx.coroutines.launch",
+      "target_module": null,
+      "kind": "import",
+      "line": 48
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+      "target": "org.json.JSONArray",
+      "target_module": null,
+      "kind": "import",
+      "line": 49
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "target": "androidx.compose.foundation.layout.padding",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "target": "androidx.compose.material.icons.Icons",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "target": "androidx.compose.material.icons.filled.Email",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "target": "androidx.compose.material.icons.filled.Group",
+      "target_module": null,
+      "kind": "import",
+      "line": 6
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "target": "androidx.compose.material.icons.filled.Home",
+      "target_module": null,
+      "kind": "import",
+      "line": 7
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "target": "androidx.compose.material.icons.filled.Person",
+      "target_module": null,
+      "kind": "import",
+      "line": 8
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "target": "androidx.compose.material.icons.filled.PlayArrow",
+      "target_module": null,
+      "kind": "import",
+      "line": 9
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "target": "androidx.compose.material.icons.filled.QrCodeScanner",
+      "target_module": null,
+      "kind": "import",
+      "line": 10
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "target": "androidx.compose.material3.Icon",
+      "target_module": null,
+      "kind": "import",
+      "line": 11
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "target": "androidx.compose.material3.NavigationBar",
+      "target_module": null,
+      "kind": "import",
+      "line": 12
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "target": "androidx.compose.material3.NavigationBarItem",
+      "target_module": null,
+      "kind": "import",
+      "line": 13
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "target": "androidx.compose.material3.Scaffold",
+      "target_module": null,
+      "kind": "import",
+      "line": 14
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "target": "androidx.compose.material3.Text",
+      "target_module": null,
+      "kind": "import",
+      "line": 15
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "target": "androidx.compose.runtime.Composable",
+      "target_module": null,
+      "kind": "import",
+      "line": 16
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "target": "androidx.compose.runtime.getValue",
+      "target_module": null,
+      "kind": "import",
+      "line": 17
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "target": "androidx.compose.runtime.mutableStateOf",
+      "target_module": null,
+      "kind": "import",
+      "line": 18
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "target": "androidx.compose.runtime.remember",
+      "target_module": null,
+      "kind": "import",
+      "line": 19
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "target": "androidx.compose.runtime.setValue",
+      "target_module": null,
+      "kind": "import",
+      "line": 20
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "target": "androidx.compose.ui.Modifier",
+      "target_module": null,
+      "kind": "import",
+      "line": 21
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "target": "androidx.compose.ui.graphics.vector.ImageVector",
+      "target_module": null,
+      "kind": "import",
+      "line": 22
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "target": "com.attendx.app.api.Api",
+      "target_module": null,
+      "kind": "import",
+      "line": 23
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+      "target": "com.attendx.app.api.Session",
+      "target_module": null,
+      "kind": "import",
+      "line": 24
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/theme/Theme.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/theme/Theme.kt",
+      "target": "androidx.compose.foundation.isSystemInDarkTheme",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/theme/Theme.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/theme/Theme.kt",
+      "target": "androidx.compose.material3.MaterialTheme",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/theme/Theme.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/theme/Theme.kt",
+      "target": "androidx.compose.material3.darkColorScheme",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/theme/Theme.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/theme/Theme.kt",
+      "target": "androidx.compose.material3.lightColorScheme",
+      "target_module": null,
+      "kind": "import",
+      "line": 6
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/theme/Theme.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/theme/Theme.kt",
+      "target": "androidx.compose.runtime.Composable",
+      "target_module": null,
+      "kind": "import",
+      "line": 7
+    },
+    {
+      "source": "module:android/app/src/main/java/com/attendx/app/ui/theme/Theme.kt",
+      "source_path": "android/app/src/main/java/com/attendx/app/ui/theme/Theme.kt",
+      "target": "androidx.compose.ui.graphics.Color",
+      "target_module": null,
+      "kind": "import",
+      "line": 8
+    },
+    {
+      "source": "module:android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java",
+      "source_path": "android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java",
+      "target": "static",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java",
+      "source_path": "android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java",
+      "target": "org.junit.Test",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:api/index.ts",
+      "source_path": "api/index.ts",
+      "target": "@vercel/node",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:capacitor.config.ts",
+      "source_path": "capacitor.config.ts",
+      "target": "@capacitor/cli",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:processing-service/app/main.py",
+      "source_path": "processing-service/app/main.py",
+      "target": "base64",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:processing-service/app/main.py",
+      "source_path": "processing-service/app/main.py",
+      "target": "json",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:processing-service/app/main.py",
+      "source_path": "processing-service/app/main.py",
+      "target": "os",
+      "target_module": null,
+      "kind": "import",
+      "line": 3
+    },
+    {
+      "source": "module:processing-service/app/main.py",
+      "source_path": "processing-service/app/main.py",
+      "target": "re",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:processing-service/app/main.py",
+      "source_path": "processing-service/app/main.py",
+      "target": "contextlib",
+      "target_module": null,
+      "kind": "from",
+      "line": 5
+    },
+    {
+      "source": "module:processing-service/app/main.py",
+      "source_path": "processing-service/app/main.py",
+      "target": "typing",
+      "target_module": null,
+      "kind": "from",
+      "line": 6
+    },
+    {
+      "source": "module:processing-service/app/main.py",
+      "source_path": "processing-service/app/main.py",
+      "target": "cv2",
+      "target_module": null,
+      "kind": "import",
+      "line": 8
+    },
+    {
+      "source": "module:processing-service/app/main.py",
+      "source_path": "processing-service/app/main.py",
+      "target": "numpy",
+      "target_module": null,
+      "kind": "import",
+      "line": 9
+    },
+    {
+      "source": "module:processing-service/app/main.py",
+      "source_path": "processing-service/app/main.py",
+      "target": "fastapi",
+      "target_module": null,
+      "kind": "from",
+      "line": 10
+    },
+    {
+      "source": "module:processing-service/app/main.py",
+      "source_path": "processing-service/app/main.py",
+      "target": "pydantic",
+      "target_module": null,
+      "kind": "from",
+      "line": 11
+    },
+    {
+      "source": "module:processing-service/app/main.py",
+      "source_path": "processing-service/app/main.py",
+      "target": "insightface.app",
+      "target_module": null,
+      "kind": "from",
+      "line": 26
+    },
+    {
+      "source": "module:processing-service/app/main.py",
+      "source_path": "processing-service/app/main.py",
+      "target": "transformers",
+      "target_module": null,
+      "kind": "from",
+      "line": 36
+    },
+    {
+      "source": "module:processing-service/app/main.py",
+      "source_path": "processing-service/app/main.py",
+      "target": "PIL",
+      "target_module": null,
+      "kind": "from",
+      "line": 140
+    },
+    {
+      "source": "module:server/src/account.ts",
+      "source_path": "server/src/account.ts",
+      "target": "express",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:server/src/account.ts",
+      "source_path": "server/src/account.ts",
+      "target": "node:crypto",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:server/src/account.ts",
+      "source_path": "server/src/account.ts",
+      "target": "./db.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 3
+    },
+    {
+      "source": "module:server/src/account.ts",
+      "source_path": "server/src/account.ts",
+      "target": "./otp.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:server/src/account.ts",
+      "source_path": "server/src/account.ts",
+      "target": "./auth.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:server/src/appUpdate.ts",
+      "source_path": "server/src/appUpdate.ts",
+      "target": "express",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:server/src/auth.ts",
+      "source_path": "server/src/auth.ts",
+      "target": "express",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:server/src/auth.ts",
+      "source_path": "server/src/auth.ts",
+      "target": "node:crypto",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:server/src/auth.ts",
+      "source_path": "server/src/auth.ts",
+      "target": "node:fs",
+      "target_module": null,
+      "kind": "import",
+      "line": 3
+    },
+    {
+      "source": "module:server/src/auth.ts",
+      "source_path": "server/src/auth.ts",
+      "target": "node:path",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:server/src/auth.ts",
+      "source_path": "server/src/auth.ts",
+      "target": "./db.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:server/src/auth.ts",
+      "source_path": "server/src/auth.ts",
+      "target": "./localAi.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 6
+    },
+    {
+      "source": "module:server/src/auth.ts",
+      "source_path": "server/src/auth.ts",
+      "target": "./runtimePaths.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 7
+    },
+    {
+      "source": "module:server/src/data.ts",
+      "source_path": "server/src/data.ts",
+      "target": "express",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:server/src/data.ts",
+      "source_path": "server/src/data.ts",
+      "target": "node:crypto",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:server/src/data.ts",
+      "source_path": "server/src/data.ts",
+      "target": "./db.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 3
+    },
+    {
+      "source": "module:server/src/db.ts",
+      "source_path": "server/src/db.ts",
+      "target": "node:sqlite",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:server/src/db.ts",
+      "source_path": "server/src/db.ts",
+      "target": "pg",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:server/src/db.ts",
+      "source_path": "server/src/db.ts",
+      "target": "mongodb",
+      "target_module": null,
+      "kind": "import",
+      "line": 3
+    },
+    {
+      "source": "module:server/src/db.ts",
+      "source_path": "server/src/db.ts",
+      "target": "node:fs",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:server/src/db.ts",
+      "source_path": "server/src/db.ts",
+      "target": "node:path",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:server/src/db.ts",
+      "source_path": "server/src/db.ts",
+      "target": "node:crypto",
+      "target_module": null,
+      "kind": "import",
+      "line": 6
+    },
+    {
+      "source": "module:server/src/directory.ts",
+      "source_path": "server/src/directory.ts",
+      "target": "express",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:server/src/directory.ts",
+      "source_path": "server/src/directory.ts",
+      "target": "./db.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:server/src/faculty.ts",
+      "source_path": "server/src/faculty.ts",
+      "target": "express",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:server/src/faculty.ts",
+      "source_path": "server/src/faculty.ts",
+      "target": "node:crypto",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:server/src/faculty.ts",
+      "source_path": "server/src/faculty.ts",
+      "target": "./db.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 3
+    },
+    {
+      "source": "module:server/src/faculty.ts",
+      "source_path": "server/src/faculty.ts",
+      "target": "./mailer.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:server/src/functions.ts",
+      "source_path": "server/src/functions.ts",
+      "target": "express",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:server/src/functions.ts",
+      "source_path": "server/src/functions.ts",
+      "target": "node:crypto",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:server/src/functions.ts",
+      "source_path": "server/src/functions.ts",
+      "target": "./db.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 3
+    },
+    {
+      "source": "module:server/src/functions.ts",
+      "source_path": "server/src/functions.ts",
+      "target": "./auth.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:server/src/functions.ts",
+      "source_path": "server/src/functions.ts",
+      "target": "./localAi.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:server/src/index.ts",
+      "source_path": "server/src/index.ts",
+      "target": "express",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:server/src/index.ts",
+      "source_path": "server/src/index.ts",
+      "target": "cors",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:server/src/index.ts",
+      "source_path": "server/src/index.ts",
+      "target": "node:fs",
+      "target_module": null,
+      "kind": "import",
+      "line": 3
+    },
+    {
+      "source": "module:server/src/index.ts",
+      "source_path": "server/src/index.ts",
+      "target": "dotenv",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:server/src/index.ts",
+      "source_path": "server/src/index.ts",
+      "target": "node:path",
+      "target_module": null,
+      "kind": "import",
+      "line": 7
+    },
+    {
+      "source": "module:server/src/index.ts",
+      "source_path": "server/src/index.ts",
+      "target": "node:url",
+      "target_module": null,
+      "kind": "import",
+      "line": 8
+    },
+    {
+      "source": "module:server/src/index.ts",
+      "source_path": "server/src/index.ts",
+      "target": "./db.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 14
+    },
+    {
+      "source": "module:server/src/index.ts",
+      "source_path": "server/src/index.ts",
+      "target": "./auth.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 15
+    },
+    {
+      "source": "module:server/src/index.ts",
+      "source_path": "server/src/index.ts",
+      "target": "./functions.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 16
+    },
+    {
+      "source": "module:server/src/index.ts",
+      "source_path": "server/src/index.ts",
+      "target": "./data.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 25
+    },
+    {
+      "source": "module:server/src/index.ts",
+      "source_path": "server/src/index.ts",
+      "target": "./sync.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 26
+    },
+    {
+      "source": "module:server/src/index.ts",
+      "source_path": "server/src/index.ts",
+      "target": "./otp.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 27
+    },
+    {
+      "source": "module:server/src/index.ts",
+      "source_path": "server/src/index.ts",
+      "target": "./account.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 28
+    },
+    {
+      "source": "module:server/src/index.ts",
+      "source_path": "server/src/index.ts",
+      "target": "./faculty.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 29
+    },
+    {
+      "source": "module:server/src/index.ts",
+      "source_path": "server/src/index.ts",
+      "target": "./queries.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 30
+    },
+    {
+      "source": "module:server/src/index.ts",
+      "source_path": "server/src/index.ts",
+      "target": "./appUpdate.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 31
+    },
+    {
+      "source": "module:server/src/index.ts",
+      "source_path": "server/src/index.ts",
+      "target": "./massMail.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 32
+    },
+    {
+      "source": "module:server/src/index.ts",
+      "source_path": "server/src/index.ts",
+      "target": "./runtimePaths.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 33
+    },
+    {
+      "source": "module:server/src/index.ts",
+      "source_path": "server/src/index.ts",
+      "target": "./directory.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 122
+    },
+    {
+      "source": "module:server/src/index.ts",
+      "source_path": "server/src/index.ts",
+      "target": "./notices.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 144
+    },
+    {
+      "source": "module:server/src/index.ts",
+      "source_path": "server/src/index.ts",
+      "target": "./userStatus.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 151
+    },
+    {
+      "source": "module:server/src/localAi.ts",
+      "source_path": "server/src/localAi.ts",
+      "target": "node:crypto",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:server/src/mailer.ts",
+      "source_path": "server/src/mailer.ts",
+      "target": "nodemailer",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:server/src/massMail.ts",
+      "source_path": "server/src/massMail.ts",
+      "target": "express",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:server/src/massMail.ts",
+      "source_path": "server/src/massMail.ts",
+      "target": "node:crypto",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:server/src/massMail.ts",
+      "source_path": "server/src/massMail.ts",
+      "target": "./db.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 3
+    },
+    {
+      "source": "module:server/src/massMail.ts",
+      "source_path": "server/src/massMail.ts",
+      "target": "./mailer.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:server/src/notices.ts",
+      "source_path": "server/src/notices.ts",
+      "target": "express",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:server/src/notices.ts",
+      "source_path": "server/src/notices.ts",
+      "target": "node:crypto",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:server/src/notices.ts",
+      "source_path": "server/src/notices.ts",
+      "target": "./db.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:server/src/notices.ts",
+      "source_path": "server/src/notices.ts",
+      "target": "./mailer.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 6
+    },
+    {
+      "source": "module:server/src/otp.ts",
+      "source_path": "server/src/otp.ts",
+      "target": "node:crypto",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:server/src/otp.ts",
+      "source_path": "server/src/otp.ts",
+      "target": "./db.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:server/src/otp.ts",
+      "source_path": "server/src/otp.ts",
+      "target": "./mailer.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 3
+    },
+    {
+      "source": "module:server/src/queries.ts",
+      "source_path": "server/src/queries.ts",
+      "target": "express",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:server/src/queries.ts",
+      "source_path": "server/src/queries.ts",
+      "target": "node:crypto",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:server/src/queries.ts",
+      "source_path": "server/src/queries.ts",
+      "target": "./db.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 3
+    },
+    {
+      "source": "module:server/src/queries.ts",
+      "source_path": "server/src/queries.ts",
+      "target": "./mailer.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:server/src/runtimePaths.ts",
+      "source_path": "server/src/runtimePaths.ts",
+      "target": "node:path",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:server/src/sync.ts",
+      "source_path": "server/src/sync.ts",
+      "target": "express",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:server/src/sync.ts",
+      "source_path": "server/src/sync.ts",
+      "target": "./db.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:server/src/userStatus.ts",
+      "source_path": "server/src/userStatus.ts",
+      "target": "express",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:server/src/userStatus.ts",
+      "source_path": "server/src/userStatus.ts",
+      "target": "node:crypto",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:server/src/userStatus.ts",
+      "source_path": "server/src/userStatus.ts",
+      "target": "./db.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 3
+    },
+    {
+      "source": "module:server/src/userStatus.ts",
+      "source_path": "server/src/userStatus.ts",
+      "target": "./mailer.js",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:src/App.tsx",
+      "source_path": "src/App.tsx",
+      "target": "react",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:src/App.tsx",
+      "source_path": "src/App.tsx",
+      "target": "lucide-react",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:src/App.tsx",
+      "source_path": "src/App.tsx",
+      "target": "./components/Shell",
+      "target_module": null,
+      "kind": "import",
+      "line": 3
+    },
+    {
+      "source": "module:src/App.tsx",
+      "source_path": "src/App.tsx",
+      "target": "./components/ui",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:src/App.tsx",
+      "source_path": "src/App.tsx",
+      "target": "./store",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:src/App.tsx",
+      "source_path": "src/App.tsx",
+      "target": "./types",
+      "target_module": null,
+      "kind": "import",
+      "line": 6
+    },
+    {
+      "source": "module:src/App.tsx",
+      "source_path": "src/App.tsx",
+      "target": "./lib/apiClient",
+      "target_module": null,
+      "kind": "import",
+      "line": 7
+    },
+    {
+      "source": "module:src/App.tsx",
+      "source_path": "src/App.tsx",
+      "target": "./lib/deviceIntegrity",
+      "target_module": null,
+      "kind": "import",
+      "line": 8
+    },
+    {
+      "source": "module:src/App.tsx",
+      "source_path": "src/App.tsx",
+      "target": "./components/CameraCapture",
+      "target_module": null,
+      "kind": "import",
+      "line": 11
+    },
+    {
+      "source": "module:src/App.tsx",
+      "source_path": "src/App.tsx",
+      "target": "./components/QrScanner",
+      "target_module": null,
+      "kind": "import",
+      "line": 12
+    },
+    {
+      "source": "module:src/App.tsx",
+      "source_path": "src/App.tsx",
+      "target": "./components/OtpModal",
+      "target_module": null,
+      "kind": "import",
+      "line": 13
+    },
+    {
+      "source": "module:src/App.tsx",
+      "source_path": "src/App.tsx",
+      "target": "./components/Landing",
+      "target_module": null,
+      "kind": "import",
+      "line": 14
+    },
+    {
+      "source": "module:src/App.tsx",
+      "source_path": "src/App.tsx",
+      "target": "./lib/platform",
+      "target_module": null,
+      "kind": "import",
+      "line": 15
+    },
+    {
+      "source": "module:src/App.tsx",
+      "source_path": "src/App.tsx",
+      "target": "./components/UpdateBanner",
+      "target_module": null,
+      "kind": "import",
+      "line": 16
+    },
+    {
+      "source": "module:src/App.tsx",
+      "source_path": "src/App.tsx",
+      "target": "./views",
+      "target_module": null,
+      "kind": "import",
+      "line": 18
+    },
+    {
+      "source": "module:src/App.tsx",
+      "source_path": "src/App.tsx",
+      "target": "./components/MailCenter",
+      "target_module": null,
+      "kind": "import",
+      "line": 34
+    },
+    {
+      "source": "module:src/components/ApplicationErrorBoundary.tsx",
+      "source_path": "src/components/ApplicationErrorBoundary.tsx",
+      "target": "react",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:src/components/ApplicationErrorBoundary.tsx",
+      "source_path": "src/components/ApplicationErrorBoundary.tsx",
+      "target": "lucide-react",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:src/components/ApplicationErrorBoundary.tsx",
+      "source_path": "src/components/ApplicationErrorBoundary.tsx",
+      "target": "../store",
+      "target_module": null,
+      "kind": "import",
+      "line": 3
+    },
+    {
+      "source": "module:src/components/ApplicationErrorBoundary.tsx",
+      "source_path": "src/components/ApplicationErrorBoundary.tsx",
+      "target": "./ui",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:src/components/CameraCapture.tsx",
+      "source_path": "src/components/CameraCapture.tsx",
+      "target": "react",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:src/components/CameraCapture.tsx",
+      "source_path": "src/components/CameraCapture.tsx",
+      "target": "lucide-react",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:src/components/CameraCapture.tsx",
+      "source_path": "src/components/CameraCapture.tsx",
+      "target": "@capacitor/camera",
+      "target_module": null,
+      "kind": "import",
+      "line": 3
+    },
+    {
+      "source": "module:src/components/CameraCapture.tsx",
+      "source_path": "src/components/CameraCapture.tsx",
+      "target": "@capacitor/core",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:src/components/CameraCapture.tsx",
+      "source_path": "src/components/CameraCapture.tsx",
+      "target": "./ui",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:src/components/Landing.tsx",
+      "source_path": "src/components/Landing.tsx",
+      "target": "react",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:src/components/Landing.tsx",
+      "source_path": "src/components/Landing.tsx",
+      "target": "gsap",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:src/components/Landing.tsx",
+      "source_path": "src/components/Landing.tsx",
+      "target": "gsap/ScrollTrigger",
+      "target_module": null,
+      "kind": "import",
+      "line": 3
+    },
+    {
+      "source": "module:src/components/Landing.tsx",
+      "source_path": "src/components/Landing.tsx",
+      "target": "lenis",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:src/components/Landing.tsx",
+      "source_path": "src/components/Landing.tsx",
+      "target": "lucide-react",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:src/components/Landing.tsx",
+      "source_path": "src/components/Landing.tsx",
+      "target": "../landing.css",
+      "target_module": null,
+      "kind": "import",
+      "line": 9
+    },
+    {
+      "source": "module:src/components/MailCenter.tsx",
+      "source_path": "src/components/MailCenter.tsx",
+      "target": "react",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:src/components/MailCenter.tsx",
+      "source_path": "src/components/MailCenter.tsx",
+      "target": "lucide-react",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:src/components/MailCenter.tsx",
+      "source_path": "src/components/MailCenter.tsx",
+      "target": "./ui",
+      "target_module": null,
+      "kind": "import",
+      "line": 7
+    },
+    {
+      "source": "module:src/components/MailCenter.tsx",
+      "source_path": "src/components/MailCenter.tsx",
+      "target": "../store",
+      "target_module": null,
+      "kind": "import",
+      "line": 8
+    },
+    {
+      "source": "module:src/components/MailCenter.tsx",
+      "source_path": "src/components/MailCenter.tsx",
+      "target": "../lib/apiClient",
+      "target_module": null,
+      "kind": "import",
+      "line": 9
+    },
+    {
+      "source": "module:src/components/OtpModal.tsx",
+      "source_path": "src/components/OtpModal.tsx",
+      "target": "react",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:src/components/OtpModal.tsx",
+      "source_path": "src/components/OtpModal.tsx",
+      "target": "lucide-react",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:src/components/OtpModal.tsx",
+      "source_path": "src/components/OtpModal.tsx",
+      "target": "./ui",
+      "target_module": null,
+      "kind": "import",
+      "line": 3
+    },
+    {
+      "source": "module:src/components/OtpModal.tsx",
+      "source_path": "src/components/OtpModal.tsx",
+      "target": "../lib/supabase",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:src/components/QrScanner.tsx",
+      "source_path": "src/components/QrScanner.tsx",
+      "target": "react",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:src/components/QrScanner.tsx",
+      "source_path": "src/components/QrScanner.tsx",
+      "target": "html5-qrcode",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:src/components/QrScanner.tsx",
+      "source_path": "src/components/QrScanner.tsx",
+      "target": "lucide-react",
+      "target_module": null,
+      "kind": "import",
+      "line": 3
+    },
+    {
+      "source": "module:src/components/QrScanner.tsx",
+      "source_path": "src/components/QrScanner.tsx",
+      "target": "@capacitor/camera",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:src/components/QrScanner.tsx",
+      "source_path": "src/components/QrScanner.tsx",
+      "target": "@capacitor/core",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:src/components/ServerAndSyncSettings.tsx",
+      "source_path": "src/components/ServerAndSyncSettings.tsx",
+      "target": "react",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:src/components/ServerAndSyncSettings.tsx",
+      "source_path": "src/components/ServerAndSyncSettings.tsx",
+      "target": "lucide-react",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:src/components/ServerAndSyncSettings.tsx",
+      "source_path": "src/components/ServerAndSyncSettings.tsx",
+      "target": "./ui",
+      "target_module": null,
+      "kind": "import",
+      "line": 3
+    },
+    {
+      "source": "module:src/components/ServerAndSyncSettings.tsx",
+      "source_path": "src/components/ServerAndSyncSettings.tsx",
+      "target": "../lib/apiClient",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:src/components/Shell.tsx",
+      "source_path": "src/components/Shell.tsx",
+      "target": "lucide-react",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:src/components/Shell.tsx",
+      "source_path": "src/components/Shell.tsx",
+      "target": "lucide-react",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:src/components/Shell.tsx",
+      "source_path": "src/components/Shell.tsx",
+      "target": "react",
+      "target_module": null,
+      "kind": "import",
+      "line": 3
+    },
+    {
+      "source": "module:src/components/Shell.tsx",
+      "source_path": "src/components/Shell.tsx",
+      "target": "../types",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:src/components/Shell.tsx",
+      "source_path": "src/components/Shell.tsx",
+      "target": "../store",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:src/components/Shell.tsx",
+      "source_path": "src/components/Shell.tsx",
+      "target": "./ui",
+      "target_module": null,
+      "kind": "import",
+      "line": 6
+    },
+    {
+      "source": "module:src/components/Shell.tsx",
+      "source_path": "src/components/Shell.tsx",
+      "target": "../lib/apiClient",
+      "target_module": null,
+      "kind": "import",
+      "line": 7
+    },
+    {
+      "source": "module:src/components/Shell.tsx",
+      "source_path": "src/components/Shell.tsx",
+      "target": "./UpdateBanner",
+      "target_module": null,
+      "kind": "import",
+      "line": 8
+    },
+    {
+      "source": "module:src/components/UpdateBanner.tsx",
+      "source_path": "src/components/UpdateBanner.tsx",
+      "target": "react",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:src/components/UpdateBanner.tsx",
+      "source_path": "src/components/UpdateBanner.tsx",
+      "target": "lucide-react",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:src/components/UpdateBanner.tsx",
+      "source_path": "src/components/UpdateBanner.tsx",
+      "target": "../lib/platform",
+      "target_module": null,
+      "kind": "import",
+      "line": 3
+    },
+    {
+      "source": "module:src/components/UpdateBanner.tsx",
+      "source_path": "src/components/UpdateBanner.tsx",
+      "target": "../lib/apiClient",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:src/components/UpdateBanner.tsx",
+      "source_path": "src/components/UpdateBanner.tsx",
+      "target": "../lib/appVersion",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:src/components/ui.tsx",
+      "source_path": "src/components/ui.tsx",
+      "target": "react",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:src/components/ui.tsx",
+      "source_path": "src/components/ui.tsx",
+      "target": "lucide-react",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:src/lib/apiClient.ts",
+      "source_path": "src/lib/apiClient.ts",
+      "target": "./supabase",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:src/lib/deviceIntegrity.ts",
+      "source_path": "src/lib/deviceIntegrity.ts",
+      "target": "@capacitor/core",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:src/lib/platform.ts",
+      "source_path": "src/lib/platform.ts",
+      "target": "@capacitor/core",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:src/main.tsx",
+      "source_path": "src/main.tsx",
+      "target": "react",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:src/main.tsx",
+      "source_path": "src/main.tsx",
+      "target": "react-dom/client",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:src/main.tsx",
+      "source_path": "src/main.tsx",
+      "target": "./styles.css",
+      "target_module": null,
+      "kind": "import",
+      "line": 3
+    },
+    {
+      "source": "module:src/main.tsx",
+      "source_path": "src/main.tsx",
+      "target": "./featureStyles.css",
+      "target_module": null,
+      "kind": "import",
+      "line": 4
+    },
+    {
+      "source": "module:src/main.tsx",
+      "source_path": "src/main.tsx",
+      "target": "./App",
+      "target_module": null,
+      "kind": "import",
+      "line": 5
+    },
+    {
+      "source": "module:src/main.tsx",
+      "source_path": "src/main.tsx",
+      "target": "./components/ApplicationErrorBoundary",
+      "target_module": null,
+      "kind": "import",
+      "line": 6
+    },
+    {
+      "source": "module:src/main.tsx",
+      "source_path": "src/main.tsx",
+      "target": "./lib/consoleGuard",
+      "target_module": null,
+      "kind": "import",
+      "line": 7
+    },
+    {
+      "source": "module:src/store.ts",
+      "source_path": "src/store.ts",
+      "target": "zustand",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:src/store.ts",
+      "source_path": "src/store.ts",
+      "target": "./types",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:src/store.ts",
+      "source_path": "src/store.ts",
+      "target": "./lib/apiClient",
+      "target_module": null,
+      "kind": "import",
+      "line": 3
+    },
+    {
+      "source": "module:src/views.tsx",
+      "source_path": "src/views.tsx",
+      "target": "react",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:src/views.tsx",
+      "source_path": "src/views.tsx",
+      "target": "lucide-react",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    },
+    {
+      "source": "module:src/views.tsx",
+      "source_path": "src/views.tsx",
+      "target": "qrcode.react",
+      "target_module": null,
+      "kind": "import",
+      "line": 42
+    },
+    {
+      "source": "module:src/views.tsx",
+      "source_path": "src/views.tsx",
+      "target": "lucide-react",
+      "target_module": null,
+      "kind": "import",
+      "line": 43
+    },
+    {
+      "source": "module:src/views.tsx",
+      "source_path": "src/views.tsx",
+      "target": "@capacitor/geolocation",
+      "target_module": null,
+      "kind": "import",
+      "line": 44
+    },
+    {
+      "source": "module:src/views.tsx",
+      "source_path": "src/views.tsx",
+      "target": "@capacitor/core",
+      "target_module": null,
+      "kind": "import",
+      "line": 45
+    },
+    {
+      "source": "module:src/views.tsx",
+      "source_path": "src/views.tsx",
+      "target": "@capacitor-mlkit/barcode-scanning",
+      "target_module": null,
+      "kind": "import",
+      "line": 46
+    },
+    {
+      "source": "module:src/views.tsx",
+      "source_path": "src/views.tsx",
+      "target": "./types",
+      "target_module": null,
+      "kind": "import",
+      "line": 47
+    },
+    {
+      "source": "module:src/views.tsx",
+      "source_path": "src/views.tsx",
+      "target": "./store",
+      "target_module": null,
+      "kind": "import",
+      "line": 48
+    },
+    {
+      "source": "module:src/views.tsx",
+      "source_path": "src/views.tsx",
+      "target": "./lib/apiClient",
+      "target_module": null,
+      "kind": "import",
+      "line": 49
+    },
+    {
+      "source": "module:src/views.tsx",
+      "source_path": "src/views.tsx",
+      "target": "./lib/apiClient",
+      "target_module": null,
+      "kind": "import",
+      "line": 50
+    },
+    {
+      "source": "module:src/views.tsx",
+      "source_path": "src/views.tsx",
+      "target": "./lib/deviceIntegrity",
+      "target_module": null,
+      "kind": "import",
+      "line": 51
+    },
+    {
+      "source": "module:src/views.tsx",
+      "source_path": "src/views.tsx",
+      "target": "./components/ui",
+      "target_module": null,
+      "kind": "import",
+      "line": 52
+    },
+    {
+      "source": "module:src/views.tsx",
+      "source_path": "src/views.tsx",
+      "target": "./components/CameraCapture",
+      "target_module": null,
+      "kind": "import",
+      "line": 53
+    },
+    {
+      "source": "module:src/views.tsx",
+      "source_path": "src/views.tsx",
+      "target": "./components/QrScanner",
+      "target_module": null,
+      "kind": "import",
+      "line": 58
+    },
+    {
+      "source": "module:src/views.tsx",
+      "source_path": "src/views.tsx",
+      "target": "./components/ServerAndSyncSettings",
+      "target_module": null,
+      "kind": "import",
+      "line": 59
+    },
+    {
+      "source": "module:src/views.tsx",
+      "source_path": "src/views.tsx",
+      "target": "exifr",
+      "target_module": null,
+      "kind": "import",
+      "line": 60
+    },
+    {
+      "source": "module:vite.config.ts",
+      "source_path": "vite.config.ts",
+      "target": "vite",
+      "target_module": null,
+      "kind": "import",
+      "line": 1
+    },
+    {
+      "source": "module:vite.config.ts",
+      "source_path": "vite.config.ts",
+      "target": "@vitejs/plugin-react",
+      "target_module": null,
+      "kind": "import",
+      "line": 2
+    }
+  ]
+}

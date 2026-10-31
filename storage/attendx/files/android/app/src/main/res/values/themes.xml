@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AttendX" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#0B1311</item>
+        <item name="android:navigationBarColor">#0B1311</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.AttendX.Splash" parent="Theme.AttendX">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+</resources>

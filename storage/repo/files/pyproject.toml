@@ -1,0 +1,2 @@
+[project]
+dependencies = ['tomli>=2']

@@ -1,0 +1,20 @@
+{
+  "repository": {
+    "owner": "owner",
+    "name": "repo",
+    "full_name": "owner/repo",
+    "url": "https://github.com/owner/repo",
+    "clone_url": "https://github.com/owner/repo.git"
+  },
+  "saved_at": "2026-10-30T10:57:41.755887+00:00",
+  "storage_path": "E:\\MNEMO\\storage\\repo",
+  "files_path": "E:\\MNEMO\\storage\\repo\\files",
+  "stats": {
+    "copied_source_files": 1,
+    "manifest_files": 1,
+    "graph_nodes": 5,
+    "graph_edges": 4,
+    "chunks": 2,
+    "embeddings": 2
+  }
+}

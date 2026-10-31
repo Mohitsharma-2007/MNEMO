@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mnemo"
+version = "0.1.0"
+description = "Deterministic code-intent graph ingestion and evidence-backed questioning"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["tomli>=2; python_version < '3.11'"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+mnemo = "mnemo.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["mnemo", "mnemo.*"]
+namespaces = false
+
+[tool.setuptools.package-data]
+mnemo = ["web/*.html", "web/*.js", "web/*.css", "web/vendor/*"]

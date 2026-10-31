@@ -1,0 +1,44 @@
+[
+  {
+    "chunk_id": "chunk_code_00001",
+    "vector": {
+      "value": 1.0
+    },
+    "keywords": [
+      "value"
+    ],
+    "dimension": 1
+  },
+  {
+    "chunk_id": "chunk_intent_00002",
+    "vector": {
+      "commit": 0.25,
+      "c9f3a1a6": 0.25,
+      "add": 0.25,
+      "source": 0.25,
+      "author": 0.25,
+      "ada": 0.25,
+      "example": 0.25,
+      "test": 0.25,
+      "timestamp": 0.25,
+      "2026": 0.25,
+      "10": 0.25,
+      "30t16": 0.25,
+      "27": 0.25,
+      "40": 0.25,
+      "05": 0.25,
+      "30": 0.25
+    },
+    "keywords": [
+      "commit",
+      "c9f3a1a6",
+      "add",
+      "source",
+      "author",
+      "ada",
+      "example",
+      "test"
+    ],
+    "dimension": 16
+  }
+]

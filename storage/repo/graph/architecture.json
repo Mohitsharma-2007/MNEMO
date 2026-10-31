@@ -1,0 +1,20 @@
+{
+  "nodes": [
+    {
+      "id": "architecture:backend",
+      "category": "backend",
+      "label": "Backend / Core Engine",
+      "confidence": "observed",
+      "signals": [
+        "Server, API, core compute, or backend language signals detected"
+      ],
+      "paths": [
+        "main.py"
+      ],
+      "explanation": "Backend / Core Engine is supported by main.py."
+    }
+  ],
+  "edges": [],
+  "deterministic": true,
+  "note": "Layers are inferred from tracked paths and dependency/configuration signals; they do not prove runtime traffic."
+}

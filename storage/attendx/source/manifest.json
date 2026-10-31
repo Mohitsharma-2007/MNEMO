@@ -1,0 +1,1087 @@
+[
+  {
+    "path": ".env.example",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 1036,
+    "exists": true
+  },
+  {
+    "path": ".gitignore",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 831,
+    "exists": true
+  },
+  {
+    "path": ".vercelignore",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 125,
+    "exists": true
+  },
+  {
+    "path": "ATTENDANCE_SYSTEM_PRD.md",
+    "language": "markdown",
+    "lines": 0,
+    "size_bytes": 38646,
+    "exists": true
+  },
+  {
+    "path": "README.md",
+    "language": "markdown",
+    "lines": 0,
+    "size_bytes": 6237,
+    "exists": true
+  },
+  {
+    "path": "android/.gitignore",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 1925,
+    "exists": true
+  },
+  {
+    "path": "android/app/.gitignore",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 28,
+    "exists": true
+  },
+  {
+    "path": "android/app/build.gradle",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 2614,
+    "exists": true
+  },
+  {
+    "path": "android/app/proguard-rules.pro",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 108,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java",
+    "language": "java",
+    "lines": 0,
+    "size_bytes": 800,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/AndroidManifest.xml",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 1603,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/java/com/attendx/app/MainActivity.kt",
+    "language": "kotlin",
+    "lines": 0,
+    "size_bytes": 460,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/java/com/attendx/app/api/Api.kt",
+    "language": "kotlin",
+    "lines": 0,
+    "size_bytes": 9594,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/java/com/attendx/app/api/SessionStore.kt",
+    "language": "kotlin",
+    "lines": 0,
+    "size_bytes": 1929,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+    "language": "kotlin",
+    "lines": 0,
+    "size_bytes": 7056,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+    "language": "kotlin",
+    "lines": 0,
+    "size_bytes": 4050,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+    "language": "kotlin",
+    "lines": 0,
+    "size_bytes": 6617,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+    "language": "kotlin",
+    "lines": 0,
+    "size_bytes": 10876,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+    "language": "kotlin",
+    "lines": 0,
+    "size_bytes": 10498,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+    "language": "kotlin",
+    "lines": 0,
+    "size_bytes": 13392,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+    "language": "kotlin",
+    "lines": 0,
+    "size_bytes": 3672,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+    "language": "kotlin",
+    "lines": 0,
+    "size_bytes": 4761,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+    "language": "kotlin",
+    "lines": 0,
+    "size_bytes": 9033,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+    "language": "kotlin",
+    "lines": 0,
+    "size_bytes": 3325,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/java/com/attendx/app/ui/theme/Theme.kt",
+    "language": "kotlin",
+    "lines": 0,
+    "size_bytes": 1485,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/drawable/ic_launcher_background.xml",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 5776,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/drawable/splash.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 65658,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/drawable/splash_background.xml",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 316,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/drawable/splash_logo.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 97273,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 269,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 269,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-anydpi-v31/ic_launcher.xml",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 271,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-anydpi-v31/ic_launcher_round.xml",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 271,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 9317,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 19905,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 8575,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 5144,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 10722,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 4766,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 14424,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 31299,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 13301,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 26878,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 59613,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 24968,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 41756,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 96864,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 38963,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/values/colors.xml",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 262,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/values/ic_launcher_background.xml",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 123,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/values/strings.xml",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 111,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/main/res/values/themes.xml",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 513,
+    "exists": true
+  },
+  {
+    "path": "android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java",
+    "language": "java",
+    "lines": 0,
+    "size_bytes": 420,
+    "exists": true
+  },
+  {
+    "path": "android/build.gradle",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 217,
+    "exists": true
+  },
+  {
+    "path": "android/gradle.properties",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 138,
+    "exists": true
+  },
+  {
+    "path": "android/gradle/wrapper/gradle-wrapper.jar",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 43583,
+    "exists": true
+  },
+  {
+    "path": "android/gradle/wrapper/gradle-wrapper.properties",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 260,
+    "exists": true
+  },
+  {
+    "path": "android/gradlew",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 9014,
+    "exists": true
+  },
+  {
+    "path": "android/gradlew.bat",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 2966,
+    "exists": true
+  },
+  {
+    "path": "android/settings.gradle",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 338,
+    "exists": true
+  },
+  {
+    "path": "android/variables.gradle",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 512,
+    "exists": true
+  },
+  {
+    "path": "api/index.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 1218,
+    "exists": true
+  },
+  {
+    "path": "capacitor.config.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 346,
+    "exists": true
+  },
+  {
+    "path": "implementation_plan.md",
+    "language": "markdown",
+    "lines": 0,
+    "size_bytes": 9518,
+    "exists": true
+  },
+  {
+    "path": "index.html",
+    "language": "html",
+    "lines": 0,
+    "size_bytes": 548,
+    "exists": true
+  },
+  {
+    "path": "logo.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 981147,
+    "exists": true
+  },
+  {
+    "path": "logom.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 1095228,
+    "exists": true
+  },
+  {
+    "path": "mongodb-atlas/appservices.json",
+    "language": "json",
+    "lines": 0,
+    "size_bytes": 567,
+    "exists": true
+  },
+  {
+    "path": "mongodb-atlas/functions/issueQr.js",
+    "language": "javascript",
+    "lines": 0,
+    "size_bytes": 1036,
+    "exists": true
+  },
+  {
+    "path": "mongodb-atlas/functions/submitAttendance.js",
+    "language": "javascript",
+    "lines": 0,
+    "size_bytes": 1845,
+    "exists": true
+  },
+  {
+    "path": "package-lock.json",
+    "language": "json",
+    "lines": 0,
+    "size_bytes": 241473,
+    "exists": true
+  },
+  {
+    "path": "package.json",
+    "language": "json",
+    "lines": 0,
+    "size_bytes": 1657,
+    "exists": true
+  },
+  {
+    "path": "processing-service/Dockerfile",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 438,
+    "exists": true
+  },
+  {
+    "path": "processing-service/README.md",
+    "language": "markdown",
+    "lines": 0,
+    "size_bytes": 1150,
+    "exists": true
+  },
+  {
+    "path": "processing-service/app/main.py",
+    "language": "python",
+    "lines": 0,
+    "size_bytes": 7976,
+    "exists": true
+  },
+  {
+    "path": "processing-service/requirements.txt",
+    "language": "text",
+    "lines": 0,
+    "size_bytes": 196,
+    "exists": true
+  },
+  {
+    "path": "public/logo.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 908402,
+    "exists": true
+  },
+  {
+    "path": "public/logo.svg",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 2058,
+    "exists": true
+  },
+  {
+    "path": "public/logom.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 1095228,
+    "exists": true
+  },
+  {
+    "path": "public/screenshots/admin-dashboard.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 111356,
+    "exists": true
+  },
+  {
+    "path": "public/screenshots/classes.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 116364,
+    "exists": true
+  },
+  {
+    "path": "public/screenshots/login.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 232042,
+    "exists": true
+  },
+  {
+    "path": "public/screenshots/mail-center.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 210190,
+    "exists": true
+  },
+  {
+    "path": "public/screenshots/mobile-dashboard.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 160674,
+    "exists": true
+  },
+  {
+    "path": "public/screenshots/mobile-mail.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 137601,
+    "exists": true
+  },
+  {
+    "path": "public/screenshots/people.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 136643,
+    "exists": true
+  },
+  {
+    "path": "public/screenshots/queries.png",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 143024,
+    "exists": true
+  },
+  {
+    "path": "release_notes_v1.0.8.md",
+    "language": "markdown",
+    "lines": 0,
+    "size_bytes": 1256,
+    "exists": true
+  },
+  {
+    "path": "release_notes_v2.0.0.md",
+    "language": "markdown",
+    "lines": 0,
+    "size_bytes": 1698,
+    "exists": true
+  },
+  {
+    "path": "releases/RELEASE_NOTES.md",
+    "language": "markdown",
+    "lines": 0,
+    "size_bytes": 1088,
+    "exists": true
+  },
+  {
+    "path": "scripts/audit-live.mjs",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 3130,
+    "exists": true
+  },
+  {
+    "path": "scripts/capture-screenshots.mjs",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 4141,
+    "exists": true
+  },
+  {
+    "path": "scripts/deploy.bat",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 812,
+    "exists": true
+  },
+  {
+    "path": "scripts/start-local.bat",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 695,
+    "exists": true
+  },
+  {
+    "path": "scripts/start-local.sh",
+    "language": "shell",
+    "lines": 0,
+    "size_bytes": 773,
+    "exists": true
+  },
+  {
+    "path": "scripts/verify-landing.mjs",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 1442,
+    "exists": true
+  },
+  {
+    "path": "scripts/verify-login-fix.mjs",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 2462,
+    "exists": true
+  },
+  {
+    "path": "server/package-lock.json",
+    "language": "json",
+    "lines": 0,
+    "size_bytes": 65125,
+    "exists": true
+  },
+  {
+    "path": "server/package.json",
+    "language": "json",
+    "lines": 0,
+    "size_bytes": 635,
+    "exists": true
+  },
+  {
+    "path": "server/src/account.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 3836,
+    "exists": true
+  },
+  {
+    "path": "server/src/appUpdate.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 4024,
+    "exists": true
+  },
+  {
+    "path": "server/src/auth.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 10297,
+    "exists": true
+  },
+  {
+    "path": "server/src/data.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 24356,
+    "exists": true
+  },
+  {
+    "path": "server/src/db.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 37867,
+    "exists": true
+  },
+  {
+    "path": "server/src/directory.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 5339,
+    "exists": true
+  },
+  {
+    "path": "server/src/faculty.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 5115,
+    "exists": true
+  },
+  {
+    "path": "server/src/functions.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 19186,
+    "exists": true
+  },
+  {
+    "path": "server/src/index.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 10784,
+    "exists": true
+  },
+  {
+    "path": "server/src/localAi.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 5475,
+    "exists": true
+  },
+  {
+    "path": "server/src/mailer.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 12201,
+    "exists": true
+  },
+  {
+    "path": "server/src/massMail.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 7690,
+    "exists": true
+  },
+  {
+    "path": "server/src/notices.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 16459,
+    "exists": true
+  },
+  {
+    "path": "server/src/otp.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 6099,
+    "exists": true
+  },
+  {
+    "path": "server/src/queries.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 9598,
+    "exists": true
+  },
+  {
+    "path": "server/src/runtimePaths.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 254,
+    "exists": true
+  },
+  {
+    "path": "server/src/sync.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 1132,
+    "exists": true
+  },
+  {
+    "path": "server/src/userStatus.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 2621,
+    "exists": true
+  },
+  {
+    "path": "src/App.tsx",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 29215,
+    "exists": true
+  },
+  {
+    "path": "src/components/ApplicationErrorBoundary.tsx",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 1312,
+    "exists": true
+  },
+  {
+    "path": "src/components/CameraCapture.tsx",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 3008,
+    "exists": true
+  },
+  {
+    "path": "src/components/Landing.tsx",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 12173,
+    "exists": true
+  },
+  {
+    "path": "src/components/MailCenter.tsx",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 29334,
+    "exists": true
+  },
+  {
+    "path": "src/components/OtpModal.tsx",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 9322,
+    "exists": true
+  },
+  {
+    "path": "src/components/QrScanner.tsx",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 4199,
+    "exists": true
+  },
+  {
+    "path": "src/components/ServerAndSyncSettings.tsx",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 11899,
+    "exists": true
+  },
+  {
+    "path": "src/components/Shell.tsx",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 6321,
+    "exists": true
+  },
+  {
+    "path": "src/components/UpdateBanner.tsx",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 3425,
+    "exists": true
+  },
+  {
+    "path": "src/components/ui.tsx",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 2224,
+    "exists": true
+  },
+  {
+    "path": "src/featureStyles.css",
+    "language": "css",
+    "lines": 0,
+    "size_bytes": 5405,
+    "exists": true
+  },
+  {
+    "path": "src/landing.css",
+    "language": "css",
+    "lines": 0,
+    "size_bytes": 11179,
+    "exists": true
+  },
+  {
+    "path": "src/lib/apiClient.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 165,
+    "exists": true
+  },
+  {
+    "path": "src/lib/appVersion.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 1607,
+    "exists": true
+  },
+  {
+    "path": "src/lib/consoleGuard.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 3016,
+    "exists": true
+  },
+  {
+    "path": "src/lib/deviceIntegrity.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 1637,
+    "exists": true
+  },
+  {
+    "path": "src/lib/platform.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 1783,
+    "exists": true
+  },
+  {
+    "path": "src/lib/supabase.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 15992,
+    "exists": true
+  },
+  {
+    "path": "src/main.tsx",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 499,
+    "exists": true
+  },
+  {
+    "path": "src/store.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 4090,
+    "exists": true
+  },
+  {
+    "path": "src/styles.css",
+    "language": "css",
+    "lines": 0,
+    "size_bytes": 49349,
+    "exists": true
+  },
+  {
+    "path": "src/types.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 918,
+    "exists": true
+  },
+  {
+    "path": "src/views.tsx",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 133529,
+    "exists": true
+  },
+  {
+    "path": "src/vite-env.d.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 39,
+    "exists": true
+  },
+  {
+    "path": "tsconfig.app.json",
+    "language": "json",
+    "lines": 0,
+    "size_bytes": 599,
+    "exists": true
+  },
+  {
+    "path": "tsconfig.json",
+    "language": "json",
+    "lines": 0,
+    "size_bytes": 107,
+    "exists": true
+  },
+  {
+    "path": "tsconfig.node.json",
+    "language": "json",
+    "lines": 0,
+    "size_bytes": 369,
+    "exists": true
+  },
+  {
+    "path": "vercel.json",
+    "language": "json",
+    "lines": 0,
+    "size_bytes": 253,
+    "exists": true
+  },
+  {
+    "path": "vite.config.ts",
+    "language": "typescript",
+    "lines": 0,
+    "size_bytes": 134,
+    "exists": true
+  },
+  {
+    "path": "freebuff-chat-2026-09-06T19-19-19.898Z.md",
+    "language": "markdown",
+    "lines": 0,
+    "size_bytes": 0,
+    "exists": false
+  },
+  {
+    "path": "android/app/src/main/res/values/styles.xml",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 0,
+    "exists": false
+  },
+  {
+    "path": "android/app/src/main/java/in/attendx/app/DeveloperModePlugin.java",
+    "language": "java",
+    "lines": 0,
+    "size_bytes": 0,
+    "exists": false
+  },
+  {
+    "path": "android/app/capacitor.build.gradle",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 0,
+    "exists": false
+  },
+  {
+    "path": "android/app/src/main/java/in/attendx/app/MainActivity.java",
+    "language": "java",
+    "lines": 0,
+    "size_bytes": 0,
+    "exists": false
+  },
+  {
+    "path": "android/app/src/main/res/layout/activity_main.xml",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 0,
+    "exists": false
+  },
+  {
+    "path": "android/app/src/main/res/xml/file_paths.xml",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 0,
+    "exists": false
+  },
+  {
+    "path": "android/capacitor.settings.gradle",
+    "language": "unknown",
+    "lines": 0,
+    "size_bytes": 0,
+    "exists": false
+  }
+]

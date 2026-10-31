@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="description" content="Mnemo maps repository structure, history, people, and evidence." />
+    <title>Mnemo · Repository evidence workspace</title>
+    <link rel="icon" type="image/png" href="/brand-assets/Logo.png" />
+    <link rel="stylesheet" href="/assets/vendor/codicon.css?v=1" />
+    <link rel="stylesheet" href="/assets/styles.css?v=19" />
+  </head>
+  <body>
+    <canvas id="shader-background" class="shader-background" aria-hidden="true"></canvas>
+    <div class="dither-overlay" aria-hidden="true"></div>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="shell">
+      <header class="topbar">
+        <a class="brand-lockup" href="#top" aria-label="Mnemo home">
+          <img class="brand-full-logo" src="/brand-assets/Logo.png" alt="Mnemo" />
+        </a>
+        <div class="topbar-actions">
+          <span class="connection-status"><i class="status-dot" id="health-dot"></i><span id="health-label">Connecting</span></span>
+          <span class="connection-status optional-status"><i class="status-dot" id="neo4j-dot"></i><span id="neo4j-label">Neo4j: checking</span></span>
+          <span class="ai-status-chip" id="ai-status-chip">AI off</span>
+        </div>
+      </header>
+
+      <main id="top">
+        <section class="intake-screen" id="intake-screen">
+          <div class="intake-copy">
+            <span class="eyebrow">REPOSITORY EVIDENCE WORKSPACE</span>
+            <h1>Read the code.<br /><em>Understand the why.</em></h1>
+            <p class="intake-lede">A calm, evidence-first workspace for exploring a repository's structure, history, people, and decisions.</p>
+            <p class="intake-copy-note">Bring a repository into focus. Mnemo keeps the source, history, contributors, and decisions connected instead of hiding them in one crowded screen.</p>
+          </div>
+          <div class="intake-entry">
+            <div class="intake-card card-shadow">
+            <div class="intake-kicker"><span>START WITH A REPOSITORY</span></div>
+              <label for="github-url">GitHub repository URL or owner/repo</label>
+              <div class="intake-input-row">
+                <input id="github-url" type="url" placeholder="owner/repository" autocomplete="off" spellcheck="false" />
+                <button class="primary-button" id="inspect-button" type="button">Inspect repository <span>→</span></button>
+              </div>
+              <div class="intake-progress" id="intake-progress" hidden><span class="loading-spinner" aria-hidden="true"></span><span id="intake-progress-label">Inspecting…</span></div>
+              <div class="notice" id="ingest-notice" aria-live="polite"></div>
+              <details class="advanced-fallback">
+                <summary>Use a local checkout instead</summary>
+                <p>Use a local checkout for private or offline work.</p>
+                <label for="repository-path">Local repository path</label>
+                <div class="fallback-row"><input id="repository-path" type="text" placeholder="/path/to/repository" autocomplete="off" /><button class="secondary-button" id="ingest-button" type="button">Load local checkout</button></div>
+                <label class="commit-field" for="max-commits"><span>Commit window</span><input id="max-commits" type="number" min="1" max="10000" value="10000" /></label>
+              </details>
+            </div>
+            <div class="intake-card card-shadow stored-repos-card" id="stored-repos-card" hidden>
+              <div class="intake-kicker"><span>PREVIOUSLY INSPECTED REPOSITORIES</span></div>
+              <p class="stored-repos-lead">Open a repository snapshot directly from local storage without re-ingesting:</p>
+              <div class="stored-repos-list" id="stored-repos-list">
+                <!-- Stored repos populated dynamically -->
+              </div>
+            </div>
+            <p class="intake-footnote"><span class="soft-dot"></span> Deterministic graph first · AI assist stays opt-in</p>
+          </div>
+        </section>
+
+        <section class="inspection-loader" id="inspection-loader" hidden aria-live="polite" aria-busy="true">
+          <div class="inspection-loader-card">
+            <div class="loader-brand"><span class="loader-orbit"></span><span>MNEMO / INSPECTION</span></div>
+            <p class="eyebrow">BUILDING A REPOSITORY MODEL</p>
+            <h2 id="inspection-loader-title">Preparing the workspace</h2>
+            <p class="loader-description" id="inspection-loader-description">Mnemo is collecting bounded evidence and arranging it into a readable map.</p>
+            <div class="loader-live-readout" id="loader-live-readout" aria-live="polite">
+              <div class="loader-live-readout-head"><span>LIVE SNAPSHOT</span><strong id="loader-percent">0%</strong></div>
+              <div class="loader-live-stats">
+                <div class="loader-stat"><span>Files</span><strong data-loader-stat="files">0</strong></div>
+                <div class="loader-stat"><span>Commits</span><strong data-loader-stat="commits">0</strong></div>
+                <div class="loader-stat"><span>Contributors</span><strong data-loader-stat="contributors">0</strong></div>
+                <div class="loader-stat"><span>Functions</span><strong data-loader-stat="functions">0</strong></div>
+                <div class="loader-stat"><span>Graph edges</span><strong data-loader-stat="edges">0</strong></div>
+                <div class="loader-stat"><span>Imports</span><strong data-loader-stat="imports">0</strong></div>
+              </div>
+            </div>
+            <div class="loader-progress-track"><span id="inspection-loader-progress"></span></div>
+             <ol class="inspection-stages" id="inspection-stages">
+               <li data-stage="metadata"><span class="stage-index">01</span><span class="stage-label">Repository metadata</span><span class="stage-state">Queued</span></li>
+               <li data-stage="contributors"><span class="stage-index">02</span><span class="stage-label">Contributors</span><span class="stage-state">Queued</span></li>
+               <li data-stage="history"><span class="stage-index">03</span><span class="stage-label">History and discussions</span><span class="stage-state">Queued</span></li>
+               <li data-stage="insights"><span class="stage-index">04</span><span class="stage-label">Analytics and Actions</span><span class="stage-state">Queued</span></li>
+               <li data-stage="source"><span class="stage-index">05</span><span class="stage-label">Source and symbols</span><span class="stage-state">Queued</span></li>
+               <li data-stage="tree"><span class="stage-index">06</span><span class="stage-label">File tree</span><span class="stage-state">Queued</span></li>
+               <li data-stage="analysis"><span class="stage-index">07</span><span class="stage-label">Architecture analysis</span><span class="stage-state">Queued</span></li>
+             </ol>
+             <div class="loader-chunk-log" aria-live="polite"><span>CHUNKS RECEIVED</span><div id="loader-chunks">Waiting for the first collection…</div></div>
+             <div class="loader-footnote"><span class="loading-spinner" aria-hidden="true"></span><span id="inspection-loader-footnote">This can take a moment for a large repository.</span></div>
+          </div>
+        </section>
+
+        <section class="dashboard" id="dashboard-screen" hidden>
+          <div class="workspace-header">
+             <div><span class="eyebrow">WORKSPACE</span><h2 id="workspace-title">Repository</h2><p id="workspace-subtitle">Select a view.</p></div>
+            <div class="workspace-header-actions"><button class="icon-button" id="open-storage-button" type="button" title="Open a saved repository from storage">Saved repositories</button><button class="icon-button" id="new-inspection" type="button">New inspection</button><button class="icon-button" id="refresh-inspection" type="button">Refresh</button><a class="icon-button" id="github-link" href="#" target="_blank" rel="noopener noreferrer">Open source →</a></div>
+          </div>
+          <nav class="workspace-tabs" id="workspace-tabs" hidden role="tablist" aria-label="Workspace sections">
+             <button class="workspace-tab active" type="button" role="tab" aria-selected="true" data-page="overview">Dashboard</button>
+             <button class="workspace-tab" type="button" role="tab" aria-selected="false" data-page="architecture">Graph</button>
+             <button class="workspace-tab" type="button" role="tab" aria-selected="false" data-page="source">Code</button>
+             <button class="workspace-tab" type="button" role="tab" aria-selected="false" data-page="agents">Contributors</button>
+             <button class="workspace-tab" type="button" role="tab" aria-selected="false" data-page="track">History</button>
+             <button class="workspace-tab" type="button" role="tab" aria-selected="false" data-page="ai">Ask</button>
+             <button class="workspace-tab" type="button" role="tab" aria-selected="false" data-page="simulation">Simulation</button>
+             <button class="workspace-tab" type="button" role="tab" aria-selected="false" data-page="compare">Compare</button>
+             <button class="workspace-tab" type="button" role="tab" aria-selected="false" data-page="settings">Connections</button>
+
+          </nav>
+
+          <div class="workspace-pages">
+            <section class="workspace-page active" data-page-view="overview" role="tabpanel">
+              <div class="repo-hero card-shadow">
+                <div class="repo-hero-topline"><span class="eyebrow">REPOSITORY SNAPSHOT</span><span class="repo-badge" id="repo-branch">main</span></div>
+                <div class="repo-hero-main"><div class="repo-title-block"><div class="repo-title-row"><h2 id="repo-name">Repository</h2></div><p id="repo-description">Repository overview will appear here.</p><div class="topic-row" id="topic-row"></div></div><div class="repo-snapshot" id="repo-snapshot"><span class="snapshot-label">STATUS</span><strong id="repo-snapshot-value">Waiting</strong><span id="repo-snapshot-detail">Metadata + deterministic analysis</span></div></div>
+                 <div class="repo-facts" id="repo-facts"></div><div id="lens-row" hidden></div>
+              </div>
+
+              <section class="section-block">
+                <div class="section-heading"><div><span class="eyebrow">REPOSITORY PULSE</span><h2>At a glance</h2></div><span class="section-note" id="metadata-note">Bounded inspection</span></div>
+                <div class="metadata-grid" id="metadata-grid">
+                  <article class="metric-card" data-goto-page="source" tabindex="0" role="link" title="Browse the source tree"><span class="metric-label">Files</span><strong data-metric="files">&mdash;</strong><small>tracked source files</small></article>
+                  <article class="metric-card" data-goto-page="source" tabindex="0" role="link" title="Browse indexed symbols"><span class="metric-label">Functions</span><strong data-metric="functions">&mdash;</strong><small>indexed symbols</small></article>
+                  <article class="metric-card" data-goto-page="track" tabindex="0" role="link" title="Open the Git track"><span class="metric-label">Commits</span><strong data-metric="commits">&mdash;</strong><small>sampled history</small></article>
+                  <article class="metric-card" data-goto-page="agents" tabindex="0" role="link" title="See contributor agents"><span class="metric-label">Contributors</span><strong data-metric="contributors">&mdash;</strong><small>people in snapshot</small></article>
+                  <article class="metric-card" data-goto-page="track" tabindex="0" role="link" title="Open pull requests in the Git track"><span class="metric-label">Pull requests</span><strong data-metric="pulls">&mdash;</strong><small>all states</small></article>
+                  <article class="metric-card" data-goto-page="track" tabindex="0" role="link" title="See merged changes"><span class="metric-label">Merged PRs</span><strong data-metric="merges">&mdash;</strong><small>landed changes</small></article>
+                </div>
+              </section>
+
+              <section class="panel commit-wave-card section-block" id="commit-wave-section">
+                <div class="commit-wave-top">
+                  <div class="commit-wave-title-group">
+                    <div class="commit-wave-number" id="commit-wave-count">8,546</div>
+                    <div class="commit-wave-subtitle" id="commit-wave-label">CONTRIBUTIONS IN THE LAST YEAR</div>
+                  </div>
+                  <div class="commit-wave-tools">
+                    <button class="commit-wave-replay-btn" id="commit-wave-replay" type="button" aria-label="Replay wave animation">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <polyline points="1 4 1 10 7 10"></polyline>
+                        <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path>
+                      </svg>
+                      <span>Replay</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="commit-wave-container" id="commit-wave-container">
+                  <canvas id="commit-wave-canvas"></canvas>
+                  <div class="commit-wave-tooltip" id="commit-wave-tooltip" hidden></div>
+                </div>
+              </section>
+
+              <div class="overview-split section-block">
+                <section class="panel overview-panel overview-activity-panel">
+                  <div class="section-heading compact"><div><span class="eyebrow">RECENT ACTIVITY</span><h2>Latest recorded changes</h2></div><span class="section-note" id="overview-activity-note">Waiting for a snapshot</span></div>
+                  <div class="overview-activity" id="overview-activity"><div class="empty-state">Inspect a repository to list its latest commits.</div></div>
+                </section>
+                <section class="panel overview-panel overview-coverage-panel">
+                  <div class="section-heading compact"><div><span class="eyebrow">SNAPSHOT</span><h2>What this view covers</h2></div><span class="section-note" id="overview-coverage-note">No snapshot</span></div>
+                  <div class="overview-coverage" id="overview-coverage"><div class="empty-state">Coverage appears after inspection.</div></div>
+                </section>
+              </div>
+
+               <div id="language-list" hidden></div><div id="dependency-list" hidden></div><div id="architecture-summary" hidden></div>
+            </section>
+
+            <section class="workspace-page" data-page-view="architecture" role="tabpanel" hidden>
+              <div class="page-intro"><span class="eyebrow">GRAPH</span><h2>Architecture &amp; Code Map</h2><p>Explore the repository structure, code relationships, contributors, and architecture in one unified graph view.</p></div>
+              <section class="panel graph-panel"><div class="section-heading graph-heading"><div><span class="eyebrow">CODE GRAPH</span><h2>Repository Map</h2><p class="section-description">Switch between evidence, code graph, modules, and architecture views. All graphs use the same clean, scannable layout.</p></div>                <div class="graph-tools"><div class="graph-mode-tools"><button class="graph-mode active" type="button" data-graph-mode="evidence">Evidence</button><button class="graph-mode" type="button" data-graph-mode="code">Code graph</button><button class="graph-mode" type="button" data-graph-mode="modules">Modules</button><button class="graph-mode" type="button" data-graph-mode="architecture">Architecture</button></div><span class="section-note" id="graph-meta">Awaiting graph</span><button class="graph-tool" id="graph-fullscreen" type="button" aria-label="View fullscreen">⛶</button><button class="graph-tool" id="graph-zoom-out" type="button" aria-label="Zoom out">−</button><button class="graph-tool" id="graph-zoom-reset" type="button" aria-label="Reset graph view">100%</button><button class="graph-tool" id="graph-zoom-in" type="button" aria-label="Zoom in">+</button></div></div><div class="graph-wrap" id="graph-wrap"><svg id="graph-canvas" role="img" aria-label="Repository relationship graph" viewBox="0 0 1180 660" preserveAspectRatio="xMidYMid meet"></svg><div class="graph-state" id="graph-state" aria-live="polite">Inspect a repository to reveal its architecture.</div><div class="graph-legend" id="graph-legend"><span><i class="legend-dot legend-module"></i>Code entity</span><span><i class="legend-dot legend-group"></i>Contributor</span><span><i class="legend-dot legend-history"></i>Commit</span><span><i class="legend-dot legend-decision"></i>Decision</span></div><div class="graph-legend graph-legend-code" id="graph-code-legend" hidden><span><i class="cg-legend-dot cg-legend-repo"></i>Repository</span><span><i class="cg-legend-dot cg-legend-contributor"></i>Contributor</span><span><i class="cg-legend-dot cg-legend-commit"></i>Commit</span><span><i class="cg-legend-dot cg-legend-pr"></i>Pull request</span><span><i class="cg-legend-dot cg-legend-release"></i>Release</span><span><i class="cg-legend-dot cg-legend-file"></i>File</span><span><i class="cg-legend-dot cg-legend-symbol"></i>Function / class</span><span><i class="cg-legend-line"></i>Import / call</span></div><div class="graph-legend graph-legend-architecture" id="graph-architecture-legend" hidden><span>Observed repository signals</span><span>Inferred flow</span></div></div></section>
+
+              <section class="panel architecture-ai-panel section-block">
+                <div class="section-heading compact">
+                  <div>
+                    <span class="eyebrow">AI UNDERSTANDING</span>
+                    <h2>Project Architecture Summary</h2>
+                  </div>
+                  <div class="architecture-ai-tools">
+                    <span class="section-note" id="architecture-ai-status">Analyzing repository structure...</span>
+                    <button class="secondary-button" id="architecture-ai-refresh" type="button">Regenerate</button>
+                  </div>
+                </div>
+                <div class="architecture-ai-content" id="architecture-ai-content">
+                  <div class="empty-state">AI will generate an understanding of the project architecture once the repository is loaded.</div>
+                </div>
+              </section>
+            </section>
+
+             <section class="workspace-page" data-page-view="source" role="tabpanel" hidden>
+               <div class="page-intro"><span class="eyebrow">SOURCE</span><h2>Source Explorer</h2><p>Browse files, view code, track changes, and explore relationships.</p></div>
+               <section class="panel repository-documents-panel" aria-label="Repository documents"><div class="section-heading compact"><div><span class="eyebrow">REPOSITORY DOCUMENTS</span><h2>README, standards, and guides</h2></div><span class="section-note" id="repository-documents-note">Awaiting repository</span></div><div class="repository-documents" id="repository-documents"><div class="empty-state">Important Markdown files will appear after inspection.</div></div></section>
+
+               <section class="panel source-workbench" aria-label="Source workbench">
+                <article class="workbench-section workbench-tree source-tree-panel">
+                  <header class="workbench-head"><span class="workbench-title"><span class="workbench-dot dot-tree" aria-hidden="true"></span>File Tree</span><span class="workbench-note" id="tree-meta">Awaiting repository</span></header>
+                  <div class="tree-scroll source-tree-scroll" id="file-tree"><div class="empty-state">Inspect a repository to browse folders and files.</div></div>
+                </article>
+
+                <article class="workbench-section workbench-code source-panel source-code-panel">
+                  <header class="workbench-head"><span class="workbench-title"><span class="workbench-dot dot-code" aria-hidden="true"></span><span id="source-title">File Viewer</span></span><span class="workbench-head-actions"><span class="workbench-note" id="source-meta">Read-only</span><button class="text-button" id="source-explain-button" type="button" disabled>Explain file</button></span></header>
+                  <div class="editor-tabbar" id="editor-tabs" role="tablist" aria-label="Open files"><span class="editor-tab-placeholder">No files open</span></div>
+                  <div class="source-editor-tabs" id="source-toolbar"></div>
+                  <div class="source-tab-bar" id="source-tab-bar" hidden><span class="source-tab active" id="source-file-tab" data-file="">(no file)</span></div>
+                  <article class="source-editor source-editor-main"><div class="source-gutter" id="source-gutter"></div><pre class="source-view" id="source-view"><code>Choose a file from the tree to view its code.</code></pre></article>
+                  <div class="source-status-bar" id="source-status-bar"><span class="source-status-left"></span><span class="source-status-right"></span></div>
+                </article>
+
+                <article class="workbench-section workbench-timeline source-changes-panel">
+                  <header class="workbench-head"><span class="workbench-title"><span class="workbench-dot dot-changes" aria-hidden="true"></span>Timeline</span><span class="workbench-note" id="file-changes-meta">No file selected</span></header>
+                  <div class="file-timeline" id="file-timeline"><div class="empty-state">Select a file to see its commit timeline.</div></div>
+                  <div class="file-changes-list" id="file-changes-list" hidden></div>
+                </article>
+              </section>
+
+              <section class="panel commit-diff-panel section-block">
+                <div class="section-heading compact"><div><span class="eyebrow">GIT COMMITS DIFF</span><h2>Side-by-side change view</h2></div><div class="diff-panel-tools"><span class="section-note" id="commit-diff-meta">Select a file and a commit</span></div></div>
+                <div class="commit-diff" id="commit-diff"><div class="empty-state">Pick a file, then choose a commit from the timeline to inspect its recorded diff.</div></div>
+              </section>
+
+              <section class="panel source-graph-panel section-block">
+                <div class="section-heading compact"><div><span class="eyebrow">RELATIONSHIPS</span><h2>File Relations &amp; Graph</h2></div><div class="source-graph-tools"><span class="section-note" id="source-graph-meta">Awaiting data</span><button class="graph-tool" id="source-graph-fullscreen" type="button" aria-label="View fullscreen">⛶</button><button class="graph-tool" id="source-graph-zoom-out" type="button" aria-label="Zoom out">−</button><button class="graph-tool" id="source-graph-zoom-reset" type="button" aria-label="Reset graph view">100%</button><button class="graph-tool" id="source-graph-zoom-in" type="button" aria-label="Zoom in">+</button><button class="graph-tool" id="source-graph-fit" type="button" aria-label="Fit graph to view">Fit</button></div></div>
+                <div class="source-graph-legend"><span><i class="sg-dot sg-file"></i>File</span><span><i class="sg-dot sg-function"></i>Function</span><span><i class="sg-dot sg-class"></i>Class</span><span><i class="sg-dot sg-config"></i>Config</span><span><i class="sg-legend-line"></i>Imports / calls / defines</span></div>
+                <div class="source-graph-wrap" id="source-graph-wrap"><svg id="source-relation-graph" role="img" aria-label="File and entity relationship graph" viewBox="0 0 1600 860" preserveAspectRatio="xMidYMid meet"><defs><marker id="sg-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor"/></marker></defs></svg><div class="graph-state" id="source-graph-state">Select a file to explore its relationships.</div><div class="graph-hint">Drag to pan · scroll to zoom · click a file to focus it</div></div>
+              </section>
+            </section>
+
+              <section class="workspace-page" data-page-view="agents" role="tabpanel" hidden>
+               <div class="page-intro"><span class="eyebrow">CONTRIBUTORS</span><h2>Recorded footprints</h2><p>Ownership and activity derived from repository history.</p></div>
+              <section class="panel agent-graph-panel" id="agent-workflow-panel">
+                <div class="section-heading compact"><div><span class="eyebrow">AGENTS WORKFLOW</span><h2>Orchestrator &rarr; parallel agents</h2></div><div class="agent-graph-tools"><span class="section-note" id="agent-workflow-meta">Awaiting repository</span><button class="graph-tool" id="agent-workflow-fullscreen" type="button" aria-label="View fullscreen">⛶</button><button class="graph-tool" id="agent-workflow-zoom-out" type="button" aria-label="Zoom out">&minus;</button><button class="graph-tool" id="agent-workflow-zoom-reset" type="button" aria-label="Reset graph view">100%</button><button class="graph-tool" id="agent-workflow-zoom-in" type="button" aria-label="Zoom in">+</button></div></div>
+                <div class="agent-graph-wrap" id="agent-workflow-wrap">
+                  <svg id="agent-workflow-graph" role="img" aria-label="Agents workflow graph" viewBox="0 0 1400 820" preserveAspectRatio="xMidYMid meet"></svg>
+                  <div class="graph-state" id="agent-workflow-state">Inspect a repository to reveal the agent workflow.</div>
+                  <div class="graph-hint">Drag to pan &middot; scroll to zoom &middot; click an agent to read its evidence</div>
+                </div>
+                <div class="agent-graph-legend"><span><i class="ag-dot ag-repo"></i>Repository</span><span><i class="ag-dot ag-orchestrator"></i>Orchestrator</span><span><i class="ag-dot ag-agent"></i>Contributor agent</span><span><i class="ag-dot ag-area"></i>Area group</span></div>
+                <p class="agent-graph-caption">Footprints are derived from recorded commits and touched files.</p>
+              </section>
+              <section class="panel agent-graph-panel section-block" id="agent-code-panel">
+                <div class="section-heading compact"><div><span class="eyebrow">CODE GRAPH</span><h2>Repo &rarr; contributors &rarr; files</h2></div><div class="agent-graph-tools"><span class="section-note" id="agent-code-meta">Awaiting repository</span><button class="graph-tool" id="agent-code-fullscreen" type="button" aria-label="View fullscreen">⛶</button><button class="graph-tool" id="agent-code-zoom-out" type="button" aria-label="Zoom out">&minus;</button><button class="graph-tool" id="agent-code-zoom-reset" type="button" aria-label="Reset graph view">100%</button><button class="graph-tool" id="agent-code-zoom-in" type="button" aria-label="Zoom in">+</button></div></div>
+                <div class="agent-graph-wrap agent-code-wrap" id="agent-code-wrap">
+                  <svg id="agent-code-graph" role="img" aria-label="Repository code graph" viewBox="0 0 1400 700" preserveAspectRatio="xMidYMid meet"></svg>
+                  <div class="graph-state" id="agent-code-state">Inspect a repository to render its code graph.</div>
+                  <div class="graph-hint">Drag to pan &middot; scroll to zoom</div>
+                </div>
+                <div class="agent-code-detail" id="agent-code-detail"><div class="empty-state">Select a contributor to see the files and commits they touched.</div></div>
+              </section>
+            </section>
+
+             <section class="workspace-page" data-page-view="simulation" role="tabpanel" hidden>
+               <div class="page-intro">
+                 <span class="eyebrow">SIMULATION · GRAPH-RAG AI</span>
+                 <h2>Simulate routes &amp; talk with Mnemo AI</h2>
+                 <p>Run code scenarios, observe multi-agent orchestrator reasoning, and chat directly with Mnemo's Graph-RAG assistant.</p>
+               </div>
+               <section class="panel simulation-shell">
+                 <div class="simulation-toolbar">
+                   <div class="simulation-tabs" role="tablist" aria-label="Simulation views">
+                     <button class="simulation-tab active" type="button" data-sim-tab="chat">AI Chat &amp; Simulation</button>
+                     <button class="simulation-tab" type="button" data-sim-tab="orchestrator">Orchestrator &amp; Agents</button>
+                     <button class="simulation-tab" type="button" data-sim-tab="routing">Routing Trace</button>
+                     <button class="simulation-tab" type="button" data-sim-tab="findings">Findings &amp; Chunks</button>
+                   </div>
+                   <div class="simulation-toolbar-actions">
+                     <button class="text-button simulation-clear-btn" id="simulation-clear-btn" type="button" title="Clear chat history">Clear thread</button>
+                     <label class="toggle-label simulation-ai-toggle" title="Enable AI synthesis">
+                       <input id="simulation-ai-assist" type="checkbox" checked />
+                       <span>Use AI</span>
+                     </label>
+                     <span class="simulation-model-pill" id="simulation-model-pill">Mnemo AI</span>
+                   </div>
+                 </div>
+
+                 <div class="simulation-grid">
+                   <div class="simulation-card">
+                     <span class="eyebrow">ROUTE</span>
+                     <strong id="simulation-card-route">Question → Graph → Agents</strong>
+                     <span>Evidence-first Graph RAG traversal.</span>
+                   </div>
+                   <div class="simulation-card">
+                     <span class="eyebrow">SCOPE</span>
+                     <strong id="simulation-scope">Ready for query</strong>
+                     <span>Interactive multi-turn conversation.</span>
+                   </div>
+                   <div class="simulation-card">
+                     <span class="eyebrow">AI VERIFIER</span>
+                     <strong id="simulation-card-verifier">Graph-RAG Grounded</strong>
+                     <span>All claims tied to files and commits.</span>
+                   </div>
+                 </div>
+
+                 <!-- Tab 1: AI Chat & Simulation -->
+                 <div class="simulation-tab-content" id="sim-content-chat">
+                   <div class="simulation-chat-thread" id="simulation-chat-thread" role="log" aria-live="polite">
+                     <div class="simulation-chat-welcome">
+                       <div class="sim-welcome-icon">M</div>
+                       <div class="sim-welcome-text">
+                         <strong>Welcome to Mnemo AI Simulation</strong>
+                         <p>Ask any architectural question, simulate feature changes, check blast radius, or explore code relationships. Answers are grounded in the repository's Knowledge Graph and Graph-RAG index.</p>
+                       </div>
+                     </div>
+                   </div>
+
+                   <div class="simulation-quick-prompts" id="simulation-quick-prompts">
+                     <span class="quick-prompt-label">Quick Scenarios:</span>
+                     <button type="button" class="quick-prompt-chip" data-sim-prompt="Explain the core system architecture and dataflow of this repository">Core Architecture</button>
+                     <button type="button" class="quick-prompt-chip" data-sim-prompt="Simulate the impact and blast radius of modifying the main service logic">Service Blast Radius</button>
+                     <button type="button" class="quick-prompt-chip" data-sim-prompt="Who are the primary contributors and which modules do they own?">Contributor Ownership</button>
+                     <button type="button" class="quick-prompt-chip" data-sim-prompt="Trace recent commit intent and delivery risk across tracked files">Commit Lineage</button>
+                   </div>
+
+                   <div class="simulation-runbar">
+                     <input id="simulation-question" type="text" placeholder="Ask Mnemo AI anything or simulate a repository scenario…" autocomplete="off" />
+                     <button class="primary-button" id="simulation-run" type="button">
+                       <span>Send &amp; Simulate</span>
+                     </button>
+                   </div>
+                   <div class="simulation-notice notice" id="simulation-notice" aria-live="polite"></div>
+                 </div>
+
+                 <!-- Tab 2: Orchestrator & Agents View -->
+                 <div class="simulation-tab-content" id="sim-content-orchestrator" hidden>
+                   <div class="simulation-empty" id="sim-orchestrator-empty">Ask a question in AI Chat to observe multi-agent orchestration.</div>
+                   <div class="simulation-orchestrator-body" id="sim-orchestrator-body" hidden></div>
+                 </div>
+
+                 <!-- Tab 3: Routing Trace View -->
+                 <div class="simulation-tab-content" id="sim-content-routing" hidden>
+                   <div class="simulation-empty" id="sim-routing-empty">Run a simulation query to generate an evidence route trace.</div>
+                   <div class="simulation-trace" id="simulation-trace" hidden></div>
+                 </div>
+
+                 <!-- Tab 4: Findings & Code Chunks View -->
+                 <div class="simulation-tab-content" id="sim-content-findings" hidden>
+                   <div class="simulation-empty" id="sim-findings-empty">Ask a question to inspect retrieved Graph-RAG chunks and verified evidence.</div>
+                   <div class="simulation-findings-body" id="sim-findings-body" hidden></div>
+                 </div>
+               </section>
+             </section>
+
+              <section class="workspace-page" data-page-view="compare" role="tabpanel" hidden>
+                <div class="page-intro"><span class="eyebrow">COMPARE</span><h2>Compare two points in history</h2><p>Choose commits or tags to see structural changes.</p></div>
+                <section class="panel compare-shell"><div class="compare-selectors"><label>From<select id="compare-from"><option value="">Select a snapshot</option></select></label><span aria-hidden="true">→</span><label>To<select id="compare-to"><option value="">Select a snapshot</option></select></label><button class="primary-button" type="button" id="compare-run">Compare</button></div><div class="compare-empty" id="compare-empty">Load a repository with at least two commits to compare structural changes.</div><div class="compare-result" id="compare-result" hidden></div></section>
+             </section>
+
+             <section class="workspace-page" data-page-view="ai" role="tabpanel" hidden>
+               <section class="panel ai-room-panel ai-console" id="ai-console">
+                 <header class="ai-console-head">
+                   <div class="ai-console-brand"><div><span class="eyebrow">ASK</span><h3>Ask the repository</h3></div></div>
+                   <div class="ai-console-controls">
+                     <label class="ai-provider-field"><span>Provider</span><select id="ai-room-provider" aria-label="AI room provider" disabled><option value="">Auto</option></select></label>
+                     <label class="ai-provider-field"><span>Model</span><select id="ai-room-model" aria-label="AI room model" disabled><option value="">Auto</option></select></label>
+                     <label class="toggle-label ai-room-toggle"><input id="ai-room-assist" type="checkbox" /><span>Use AI</span></label>
+                    </div>
+                  </header>
+                  <p class="ai-privacy-note">AI is enabled by default. Only this question’s bounded evidence context leaves the machine.</p>
+                  <section class="ai-model-catalog" aria-label="Provider model catalog">
+                    <div class="ai-catalog-head"><div><span class="eyebrow">LIVE PROVIDER CATALOG</span><strong>Available models</strong><span class="section-note" id="ai-room-catalog-note">Waiting for provider model discovery.</span></div><button class="text-button" id="ai-catalog-refresh" type="button">Refresh models</button></div>
+                    <div class="ai-provider-pills" id="ai-room-catalog-providers"></div>
+                    <div class="ai-catalog-list" id="ai-room-catalog-list"><div class="empty-state">Models are fetched server-side from configured providers.</div></div>
+                  </section>
+                  <div class="ai-thread" id="ai-thread" role="log" aria-live="polite">
+                   <div class="ai-thread-hello">
+                     <div><strong>Ask about the code, history, or why a change exists.</strong><p>Answers use graph evidence. If evidence is missing, Mnemo says so.</p></div>
+                   </div>
+                 </div>
+                 <div class="ai-askbar">
+                   <input id="ai-room-question" type="text" placeholder="Why was this changed?" />
+                   <button class="primary-button" id="ai-room-send" type="button">Ask <span>&rarr;</span></button>
+                 </div>
+                 <div class="notice" id="ai-room-notice" aria-live="polite"></div>
+               </section>
+             </section>
+
+<section class="workspace-page" data-page-view="track" role="tabpanel" hidden>
+              <div class="page-intro"><span class="eyebrow">GITHUB TRACK</span><h2>Follow the repository as it moves</h2><p>Branches, pushes, commits, pull requests, merge state, and delivery signals stay together in one readable history view.</p></div>
+              <div class="track-summary" id="track-summary"><article class="track-stat"><span>Branches</span><strong id="track-branch-count">—</strong></article><article class="track-stat"><span>Commits in snapshot</span><strong id="track-commit-count">—</strong></article><article class="track-stat"><span>Pull requests</span><strong id="track-pull-count">—</strong></article><article class="track-stat"><span>Last push</span><strong id="track-last-push">—</strong></article></div>
+              <div class="track-grid section-block"><section class="panel track-panel"><div class="section-heading compact"><div><span class="eyebrow">BRANCHES</span><h2>Tracked refs</h2></div><span class="section-note" id="track-branch-note">—</span></div><div class="branch-list" id="branch-list"><div class="empty-state">Branch metadata will appear after inspection.</div></div></section><section class="panel track-panel"><div class="section-heading compact"><div><span class="eyebrow">DELIVERY</span><h2>Pull request status</h2></div><span class="section-note" id="track-pr-note">—</span></div><div class="pull-status-list" id="pull-status-list"><div class="empty-state">Pull request metadata will appear after inspection.</div></div></section></div>
+               <section class="panel track-panel section-block"><div class="section-heading compact"><div><span class="eyebrow">PUSH EVENTS</span><h2>Observed pushes</h2></div><span class="section-note" id="track-push-note">—</span></div><div class="push-list" id="push-list"><div class="empty-state">GitHub push events will appear when the API returns them.</div></div></section>
+               <section class="panel track-insights-panel section-block"><div class="section-heading compact"><div><span class="eyebrow">INSIGHTS + COVERAGE</span><h2>What the snapshot contains</h2></div><span class="section-note" id="track-insights-note">—</span></div><div class="track-insight-grid" id="track-insight-grid"><div class="empty-state">Additional GitHub insights will appear after inspection.</div></div></section>
+                <section class="panel track-history-panel section-block"><div class="section-heading compact track-history-head"><div><span class="eyebrow">COMMITS + PUSHES</span><h2>Commit history</h2></div><span class="section-note" id="track-history-note">—</span></div><div class="track-history-tools"><input id="track-commit-search" type="search" placeholder="Filter commits by message, author, or SHA…" aria-label="Filter commits" /><select id="track-commit-author" aria-label="Filter commits by author"><option value="all">All authors</option></select></div><div class="commit-history" id="commit-history"><div class="empty-state">Commit history will appear after inspection.</div></div></section>
+              <section class="panel track-timeline-panel section-block"><div class="section-heading compact"><div><span class="eyebrow">INTERACTIVE HISTORY</span><h2>From first commit to latest</h2></div><div class="track-timeline-tools"><span class="section-note" id="timeline-position">No timeline loaded</span><button class="timeline-nav" type="button" id="timeline-first" aria-label="First commit">⟵</button><button class="timeline-nav" type="button" id="timeline-latest" aria-label="Latest commit">⟶</button></div></div><input class="timeline-slider" id="timeline-slider" type="range" min="0" max="0" value="0" disabled /><div class="timeline-axis" id="timeline-axis"></div><div class="timeline-detail" id="timeline-detail"><div class="empty-state">Inspect a repository to explore its complete local commit timeline.</div></div></section>
+            </section>
+
+            <section class="workspace-page" data-page-view="settings" role="tabpanel" hidden>
+              <div class="page-intro"><span class="eyebrow">CONNECTIONS</span><h2>Keep infrastructure quiet</h2><p>Mnemo remains useful locally. Neo4j is an optional persistence layer and never replaces the deterministic local graph.</p></div>
+              <div class="settings-grid"><section class="panel settings-card"><span class="eyebrow">NEO4J AURADB</span><h2>Graph persistence</h2><p>Configuration is loaded from the local <code>.env</code> file or process environment. The browser only receives safe connection metadata.</p><div class="settings-status"><i class="status-dot" id="settings-neo4j-dot"></i><strong id="settings-neo4j-label">Checking connection…</strong></div><div class="settings-actions"><button class="primary-button" type="button" id="settings-neo4j-check">Check connection</button><button class="secondary-button" type="button" id="settings-neo4j-sync" disabled>Sync current graph</button></div><div class="notice" id="settings-notice" aria-live="polite"></div></section><section class="panel settings-card ai-connection-card"><span class="eyebrow">AI PROVIDERS</span><h2>Provider connections</h2><p>Provider keys remain server-side. Mnemo asks each configured provider for its current model catalog and keeps the browser view as metadata only.</p><div class="settings-status"><i class="status-dot" id="settings-ai-dot"></i><strong id="settings-ai-label">Checking AI providers…</strong></div><div class="ai-connection-list" id="settings-ai-providers"><div class="empty-state">Provider status will appear after the server responds.</div></div><div class="settings-actions"><button class="secondary-button" type="button" id="settings-ai-refresh">Refresh provider catalog</button></div></section><section class="panel settings-card"><span class="eyebrow">GITHUB API</span><h2>Why a token can help</h2><p>A GitHub token is optional. Cloning and local source analysis work without one; the token only raises the REST API rate limit so bounded contributor, pull request, issue, and release collections are less likely to be partial.</p><div class="settings-note"><strong>Without a token</strong><span>Mnemo still analyzes the checkout and reports any unavailable API collections honestly.</span></div><div class="settings-note"><strong>With a token</strong><span>Set <code>GITHUB_TOKEN</code> in <code>.env</code> or the server process. It never reaches the browser.</span></div></section><section class="panel settings-card vercel-storage-card"><span class="eyebrow">VERCEL STORAGE</span><h2>Blob persistence</h2><p>Save and restore complete repository snapshots (graph nodes, RAG chunks, embeddings, commit history, and conversations) directly with Vercel Blob Storage.</p><div class="settings-status"><i class="status-dot" id="settings-vercel-dot"></i><strong id="settings-vercel-label">Checking Vercel Storage…</strong></div><div class="settings-actions"><button class="primary-button" type="button" id="settings-vercel-save">Save to Vercel Storage</button><button class="secondary-button" type="button" id="settings-vercel-restore">Restore from Vercel</button></div><div class="notice" id="settings-vercel-notice" aria-live="polite"></div></section></div>
+            </section>
+          </div>
+        </section>
+      </main>
+
+      <div class="storage-modal-overlay" id="storage-modal" hidden>
+        <div class="storage-modal-card card-shadow">
+          <div class="storage-modal-head">
+            <div>
+              <span class="eyebrow">PERSISTENT STORAGE</span>
+              <h3>Saved Repositories</h3>
+            </div>
+            <button class="icon-button storage-modal-close" id="storage-modal-close" type="button" aria-label="Close modal">&times;</button>
+          </div>
+          <p class="storage-modal-desc">Switch directly to any previously inspected repository snapshot without re-running ingestion:</p>
+          <div class="storage-modal-vercel-bar">
+            <div class="storage-modal-vercel-info">
+              <span class="eyebrow">CLOUD SYNC</span>
+              <span class="storage-modal-vercel-text">Vercel Blob Storage: Keep snapshots safe across deployments</span>
+            </div>
+            <div class="storage-modal-vercel-btns">
+              <button class="secondary-button" id="modal-vercel-save-btn" type="button">Save to Vercel</button>
+              <button class="secondary-button" id="modal-vercel-restore-btn" type="button">Restore from Vercel</button>
+            </div>
+          </div>
+          <div class="notice" id="modal-vercel-notice" aria-live="polite"></div>
+          <div class="stored-repos-list modal-stored-list" id="storage-modal-list">
+            <!-- Loaded dynamically -->
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer"><span><strong>Mnemo</strong> · repository evidence workspace</span><span>History is evidence. AI is opt-in.</span></footer>
+    </div>
+    <script src="/assets/app.js?v=23" defer></script>
+    <script src="/assets/source-workspace.js?v=23" defer></script>
+    <script src="/assets/source-graph.js?v=23" defer></script>
+    <script src="/assets/code-graph.js?v=23" defer></script>
+    <script src="/assets/agents-view.js?v=23" defer></script>
+    <script src="/assets/ai-console.js?v=23" defer></script>
+    <script src="/assets/commit-lab.js?v=23" defer></script>
+  </body>
+</html>

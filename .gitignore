@@ -1,0 +1,59 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.env*
+.venv
+env/
+venv/
+ENV/
+
+# Testing & caches
+.pytest_cache/
+.coverage
+htmlcov/
+*.graph.json
+
+# IDE & OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Storage temporary folders
+storage/**/tmp*
+storage/tmp*
+
+# Vercel
+.vercel
+
+# Sensitive credentials & keys
+/Neo4j*.txt
+/*Created*.txt
+*.pem
+*.key
+credentials*
+*.secret
+
+# Explicitly ensure core source files are tracked
+!mnemo/neo4j.py
+!tests/test_neo4j.py

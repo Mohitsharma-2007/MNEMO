@@ -1,0 +1,3 @@
+-keep class com.google.zxing.** { *; }
+-dontwarn com.google.zxing.**
+-keep class com.attendx.app.** { *; }

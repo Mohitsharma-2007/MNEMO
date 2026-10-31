@@ -1,0 +1,283 @@
+{
+  "repository": {
+    "owner": "owner",
+    "name": "repo",
+    "full_name": "owner/repo",
+    "url": "https://github.com/owner/repo",
+    "clone_url": "https://github.com/owner/repo.git"
+  },
+  "schema": "mnemo-graph-rag-v2",
+  "generated_at": "2026-10-30T10:57:41.753501+00:00",
+  "storage_paths": {
+    "root": "E:\\MNEMO\\storage\\repo",
+    "files": "E:\\MNEMO\\storage\\repo\\files",
+    "graph_rag_file": "E:\\MNEMO\\storage\\repo\\graph_rag_embeddings.json"
+  },
+  "stats": {
+    "files_count": 1,
+    "chunks_count": 2,
+    "embeddings_count": 2,
+    "graph_nodes_count": 5,
+    "graph_edges_count": 4
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "repository:repo",
+        "labels": [
+          "Repository"
+        ],
+        "name": "repo",
+        "default_branch": "main",
+        "root_path": "C:\\Users\\saten\\AppData\\Local\\Temp\\tmp8thj_f5a\\repo"
+      },
+      {
+        "id": "file:main.py",
+        "labels": [
+          "File"
+        ],
+        "path": "main.py",
+        "language": "python"
+      },
+      {
+        "id": "config:main.py:VALUE:1",
+        "labels": [
+          "ConfigKey"
+        ],
+        "name": "VALUE",
+        "current_value": "3",
+        "file_path": "main.py",
+        "start_line": 1,
+        "end_line": 1,
+        "path": "main.py"
+      },
+      {
+        "id": "commit:c9f3a1a6e6c842935f449329415a1dc1849e0b6d",
+        "labels": [
+          "Commit"
+        ],
+        "sha": "c9f3a1a6e6c842935f449329415a1dc1849e0b6d",
+        "message": "Add source",
+        "timestamp": "2026-10-30T16:27:40+05:30",
+        "author_email": "ada@example.test",
+        "history_index": 0,
+        "parents": [],
+        "parent_count": 0,
+        "commit_kind": "commit",
+        "insertions": 1,
+        "deletions": 0
+      },
+      {
+        "id": "contributor:ada@example.test",
+        "labels": [
+          "Contributor"
+        ],
+        "username": "ada@example.test",
+        "emails": [
+          "ada@example.test"
+        ],
+        "display_name": "Ada"
+      }
+    ],
+    "edges": [
+      {
+        "source": "repository:repo",
+        "type": "CONTAINS_FILE",
+        "target": "file:main.py"
+      },
+      {
+        "source": "file:main.py",
+        "type": "CONTAINS",
+        "target": "config:main.py:VALUE:1"
+      },
+      {
+        "source": "contributor:ada@example.test",
+        "type": "AUTHORED",
+        "target": "commit:c9f3a1a6e6c842935f449329415a1dc1849e0b6d"
+      },
+      {
+        "source": "commit:c9f3a1a6e6c842935f449329415a1dc1849e0b6d",
+        "type": "MODIFIED",
+        "target": "file:main.py",
+        "diff_hunk": "@@ -0,0 +1 @@\n+VALUE = 3"
+      }
+    ],
+    "architecture": {
+      "nodes": [
+        {
+          "id": "architecture:backend",
+          "category": "backend",
+          "label": "Backend / Core Engine",
+          "confidence": "observed",
+          "signals": [
+            "Server, API, core compute, or backend language signals detected"
+          ],
+          "paths": [
+            "main.py"
+          ],
+          "explanation": "Backend / Core Engine is supported by main.py."
+        }
+      ],
+      "edges": [],
+      "deterministic": true,
+      "note": "Layers are inferred from tracked paths and dependency/configuration signals; they do not prove runtime traffic."
+    },
+    "modules": {
+      "modules": [
+        {
+          "id": "module:main.py",
+          "name": "main",
+          "path": "main.py",
+          "language": "python"
+        }
+      ],
+      "imports": []
+    }
+  },
+  "chunks": [
+    {
+      "chunk_id": "chunk_code_00001",
+      "file_path": "main.py",
+      "start_line": 1,
+      "end_line": 1,
+      "chunk_type": "code",
+      "symbol": null,
+      "symbol_type": null,
+      "text": "VALUE = 3",
+      "token_count": 2,
+      "graph_node_ids": [
+        "file:main.py"
+      ],
+      "vector": {
+        "value": 1.0
+      },
+      "keywords": [
+        "value"
+      ],
+      "dimension": 1,
+      "relative_source_path": "files/main.py"
+    },
+    {
+      "chunk_id": "chunk_intent_00002",
+      "file_path": "git_history",
+      "start_line": 1,
+      "end_line": 1,
+      "chunk_type": "intent",
+      "symbol": "c9f3a1a6",
+      "symbol_type": "Commit",
+      "text": "Commit c9f3a1a6: Add source\nAuthor: ada@example.test\nTimestamp: 2026-10-30T16:27:40+05:30",
+      "token_count": 22,
+      "graph_node_ids": [
+        "commit:c9f3a1a6e6c842935f449329415a1dc1849e0b6d"
+      ],
+      "vector": {
+        "commit": 0.25,
+        "c9f3a1a6": 0.25,
+        "add": 0.25,
+        "source": 0.25,
+        "author": 0.25,
+        "ada": 0.25,
+        "example": 0.25,
+        "test": 0.25,
+        "timestamp": 0.25,
+        "2026": 0.25,
+        "10": 0.25,
+        "30t16": 0.25,
+        "27": 0.25,
+        "40": 0.25,
+        "05": 0.25,
+        "30": 0.25
+      },
+      "keywords": [
+        "commit",
+        "c9f3a1a6",
+        "add",
+        "source",
+        "author",
+        "ada",
+        "example",
+        "test"
+      ],
+      "dimension": 16
+    }
+  ],
+  "inverted_index": {
+    "node_to_chunks": {
+      "file:main.py": [
+        "chunk_code_00001"
+      ],
+      "commit:c9f3a1a6e6c842935f449329415a1dc1849e0b6d": [
+        "chunk_intent_00002"
+      ]
+    },
+    "symbol_to_chunks": {
+      "c9f3a1a6": [
+        "chunk_intent_00002"
+      ]
+    },
+    "file_to_chunks": {
+      "main.py": [
+        "chunk_code_00001"
+      ],
+      "git_history": [
+        "chunk_intent_00002"
+      ]
+    },
+    "token_to_chunks": {
+      "value": [
+        "chunk_code_00001"
+      ],
+      "commit": [
+        "chunk_intent_00002"
+      ],
+      "c9f3a1a6": [
+        "chunk_intent_00002"
+      ],
+      "add": [
+        "chunk_intent_00002"
+      ],
+      "source": [
+        "chunk_intent_00002"
+      ],
+      "author": [
+        "chunk_intent_00002"
+      ],
+      "ada": [
+        "chunk_intent_00002"
+      ],
+      "example": [
+        "chunk_intent_00002"
+      ],
+      "test": [
+        "chunk_intent_00002"
+      ],
+      "timestamp": [
+        "chunk_intent_00002"
+      ],
+      "2026": [
+        "chunk_intent_00002"
+      ],
+      "10": [
+        "chunk_intent_00002"
+      ],
+      "30t16": [
+        "chunk_intent_00002"
+      ],
+      "27": [
+        "chunk_intent_00002"
+      ],
+      "40": [
+        "chunk_intent_00002"
+      ],
+      "05": [
+        "chunk_intent_00002"
+      ]
+    },
+    "chunk_count": 2
+  },
+  "retrieval_metadata": {
+    "embedding_dimension": 24,
+    "algorithm": "normalized_tf_idf_cosine_similarity_with_graph_prior",
+    "instructions_for_ai": "Load this master file to execute comprehensive Graph-RAG. Use 'graph' to navigate dependencies, callers/callees, and architecture, use 'chunks' for code snippets with precomputed embedding vectors, and use 'inverted_index' for fast node-to-chunk and symbol-to-chunk lookups. Actual repository files are located in the adjacent 'files/' directory."
+  }
+}

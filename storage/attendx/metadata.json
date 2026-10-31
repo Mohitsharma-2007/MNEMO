@@ -1,0 +1,16 @@
+{
+  "repository": {
+    "name": "mohitsharma-2007--attendx"
+  },
+  "saved_at": "2026-10-30T10:04:09.737205+00:00",
+  "storage_path": "E:\\MNEMO\\storage\\attendx",
+  "files_path": "E:\\MNEMO\\storage\\attendx\\files",
+  "stats": {
+    "copied_source_files": 146,
+    "manifest_files": 155,
+    "graph_nodes": 404,
+    "graph_edges": 917,
+    "chunks": 4188,
+    "embeddings": 4188
+  }
+}

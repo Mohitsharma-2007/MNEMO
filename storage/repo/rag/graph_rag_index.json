@@ -1,0 +1,74 @@
+{
+  "node_to_chunks": {
+    "file:main.py": [
+      "chunk_code_00001"
+    ],
+    "commit:c9f3a1a6e6c842935f449329415a1dc1849e0b6d": [
+      "chunk_intent_00002"
+    ]
+  },
+  "symbol_to_chunks": {
+    "c9f3a1a6": [
+      "chunk_intent_00002"
+    ]
+  },
+  "file_to_chunks": {
+    "main.py": [
+      "chunk_code_00001"
+    ],
+    "git_history": [
+      "chunk_intent_00002"
+    ]
+  },
+  "token_to_chunks": {
+    "value": [
+      "chunk_code_00001"
+    ],
+    "commit": [
+      "chunk_intent_00002"
+    ],
+    "c9f3a1a6": [
+      "chunk_intent_00002"
+    ],
+    "add": [
+      "chunk_intent_00002"
+    ],
+    "source": [
+      "chunk_intent_00002"
+    ],
+    "author": [
+      "chunk_intent_00002"
+    ],
+    "ada": [
+      "chunk_intent_00002"
+    ],
+    "example": [
+      "chunk_intent_00002"
+    ],
+    "test": [
+      "chunk_intent_00002"
+    ],
+    "timestamp": [
+      "chunk_intent_00002"
+    ],
+    "2026": [
+      "chunk_intent_00002"
+    ],
+    "10": [
+      "chunk_intent_00002"
+    ],
+    "30t16": [
+      "chunk_intent_00002"
+    ],
+    "27": [
+      "chunk_intent_00002"
+    ],
+    "40": [
+      "chunk_intent_00002"
+    ],
+    "05": [
+      "chunk_intent_00002"
+    ]
+  },
+  "chunk_count": 2
+}

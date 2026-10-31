@@ -1,0 +1,11 @@
+{
+  "modules": [
+    {
+      "id": "module:main.py",
+      "name": "main",
+      "path": "main.py",
+      "language": "python"
+    }
+  ],
+  "imports": []
+}

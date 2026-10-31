@@ -1,0 +1,26 @@
+{
+  "name": "AttendX-AppServices",
+  "app_id": "attendx-cloud",
+  "config_version": 20210101,
+  "environment": "production",
+  "description": "MongoDB Atlas App Services Functions and Triggers for AttendX Attendance Infrastructure",
+  "services": [
+    {
+      "name": "mongodb-atlas",
+      "type": "mongodb-atlas",
+      "config": {
+        "clusterName": "Cluster0"
+      }
+    }
+  ],
+  "functions": [
+    {
+      "name": "submitAttendance",
+      "private": false
+    },
+    {
+      "name": "issueQr",
+      "private": false
+    }
+  ]
+}

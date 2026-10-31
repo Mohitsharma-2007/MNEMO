@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.1.0",
+  "repository": {
+    "name": "repo",
+    "root_path": "C:\\Users\\saten\\AppData\\Local\\Temp\\tmp8thj_f5a\\repo",
+    "url": null
+  },
+  "ingestion": {
+    "tracked_files": 1,
+    "commits": 1,
+    "max_commits": 10,
+    "imports": 0,
+    "calls": 0
+  },
+  "nodes": [
+    {
+      "id": "repository:repo",
+      "labels": [
+        "Repository"
+      ],
+      "name": "repo",
+      "default_branch": "main",
+      "root_path": "C:\\Users\\saten\\AppData\\Local\\Temp\\tmp8thj_f5a\\repo"
+    },
+    {
+      "id": "file:main.py",
+      "labels": [
+        "File"
+      ],
+      "path": "main.py",
+      "language": "python"
+    },
+    {
+      "id": "config:main.py:VALUE:1",
+      "labels": [
+        "ConfigKey"
+      ],
+      "name": "VALUE",
+      "current_value": "3",
+      "file_path": "main.py",
+      "start_line": 1,
+      "end_line": 1,
+      "path": "main.py"
+    },
+    {
+      "id": "commit:c9f3a1a6e6c842935f449329415a1dc1849e0b6d",
+      "labels": [
+        "Commit"
+      ],
+      "sha": "c9f3a1a6e6c842935f449329415a1dc1849e0b6d",
+      "message": "Add source",
+      "timestamp": "2026-10-30T16:27:40+05:30",
+      "author_email": "ada@example.test",
+      "history_index": 0,
+      "parents": [],
+      "parent_count": 0,
+      "commit_kind": "commit",
+      "insertions": 1,
+      "deletions": 0
+    },
+    {
+      "id": "contributor:ada@example.test",
+      "labels": [
+        "Contributor"
+      ],
+      "username": "ada@example.test",
+      "emails": [
+        "ada@example.test"
+      ],
+      "display_name": "Ada"
+    }
+  ],
+  "edges": [
+    {
+      "source": "repository:repo",
+      "type": "CONTAINS_FILE",
+      "target": "file:main.py"
+    },
+    {
+      "source": "file:main.py",
+      "type": "CONTAINS",
+      "target": "config:main.py:VALUE:1"
+    },
+    {
+      "source": "contributor:ada@example.test",
+      "type": "AUTHORED",
+      "target": "commit:c9f3a1a6e6c842935f449329415a1dc1849e0b6d"
+    },
+    {
+      "source": "commit:c9f3a1a6e6c842935f449329415a1dc1849e0b6d",
+      "type": "MODIFIED",
+      "target": "file:main.py",
+      "diff_hunk": "@@ -0,0 +1 @@\n+VALUE = 3"
+    }
+  ]
+}

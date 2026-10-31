@@ -1,0 +1,10 @@
+[
+  {
+    "sha": "abc123",
+    "message": "Add source",
+    "date": "2026-01-01T00:00:00Z",
+    "author": {
+      "login": "ada"
+    }
+  }
+]

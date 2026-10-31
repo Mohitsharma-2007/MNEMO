@@ -1,0 +1,116 @@
+[
+  {
+    "sha": "375f259e3e6eb3fa621813c8b6a5faf5b56af263",
+    "message": "Add v2.0.0 release notes",
+    "timestamp": "2026-09-08T02:09:57+05:30",
+    "author": "grnoida.mohitsharma2007@gmail.com"
+  },
+  {
+    "sha": "aee22e00ae144e5180b6e80c25df6f29b97cc6e6",
+    "message": "Native Android app (v2.0.0): Kotlin + Jetpack Compose, Capacitor removed\n\nThe APK is no longer a WebView wrapper \u2014 it's a real native Android app\nbuilt with Kotlin and Jetpack Compose (the same stack WhatsApp-style\nnative apps use), wired to the same AttendX backend:\n\n- Login with role picker + OTP forgot-password flow (Gmail SMTP)\n- Role-aware bottom-nav workspace (student/faculty/admin)\n- Student: dashboard with live attendance %, QR-mark screen using\n  CameraX + ZXing with GPS lock and live selfie capture\n- Faculty: live session start (geofenced), rotating native QR, live roster\n- Admin: people directory from the backend\n- Mail Center: raise requests with tracking numbers, track, resolve\n- Profile: server URL (cloud or LAN) with test, change password, sign out\n- Developer-Options integrity gate on launch (native Settings.Global check)\n- Same package + signing key as the WebView build so installs upgrade\n  in place without uninstalling\n\nWeb fixes alongside: the APK now opens sign-in instead of the web landing\npage, and full-height layouts use dvh so everything fits mobile WebViews.\nServer update endpoint now derives versionCode as major*10000+minor*100+patch\n(1.0.8 -> 10008, 2.0.0 -> 20000) so the update chain stays correct.\n\n\ud83e\udd16 Generated with Codebuff\nCo-Authored-By: Codebuff <noreply@codebuff.com>",
+    "timestamp": "2026-09-08T02:08:55+05:30",
+    "author": "grnoida.mohitsharma2007@gmail.com"
+  },
+  {
+    "sha": "05f9e4a98eba371c616d26e325a244a6d914b37b",
+    "message": "Add live-app audit script (walks every admin page, captures console errors)",
+    "timestamp": "2026-09-08T01:38:23+05:30",
+    "author": "grnoida.mohitsharma2007@gmail.com"
+  },
+  {
+    "sha": "1468dde6239f040a255a27324ab8aa9f3da6b89c",
+    "message": "Fix versionCode extraction (map(Number) NaN shift -> 0)",
+    "timestamp": "2026-09-08T01:33:24+05:30",
+    "author": "grnoida.mohitsharma2007@gmail.com"
+  },
+  {
+    "sha": "21872f71c78065991ec3b640be0961fc4a2be384",
+    "message": "Fix app/latest: correct versionCode from patch number, prefer release APK\n\nThe update endpoint parsed versionCode from the tag's first digit (v1.0.8 -> 1)\nso the in-app update check never fired, and it could hand out the debug APK\nwhen both builds are published. Derive the code from the patch segment and\nprefer the signed release asset.",
+    "timestamp": "2026-09-08T01:31:20+05:30",
+    "author": "grnoida.mohitsharma2007@gmail.com"
+  },
+  {
+    "sha": "6cce49cbcc073babfcded9b06515e76c4152ea39",
+    "message": "Add v1.0.8 release notes",
+    "timestamp": "2026-09-08T01:28:49+05:30",
+    "author": "grnoida.mohitsharma2007@gmail.com"
+  },
+  {
+    "sha": "ebc3dd618db8b93913a9a3be743fa1fbc862e7ea",
+    "message": "Fix login-page crash, 401 storm, and login layout\n\n- consoleGuard: guard undefined event.key (caused uncaught toUpperCase TypeError)\n- Persist sessions in the database so tokens survive server restarts and\n  Vercel cold starts (in-memory Map alone 401'd everyone after every restart)\n- Frontend: on any 401 (bell poll, Mail Center, data calls) clear the stale\n  token and return to sign-in instead of spamming 401s; bootstrap now treats\n  a profile-fetch error as signed-out\n- Login page: move \"Back to home\" link inside the form column \u2014 it was a\n  direct grid child that stole the first cell and pushed the form below the\n  promo panel (broken two-column layout in screenshots)\n- Add autocomplete attributes to all email/password inputs\n\nRelease v1.0.8\n\n\ud83e\udd16 Generated with Codebuff\nCo-Authored-By: Codebuff <noreply@codebuff.com>",
+    "timestamp": "2026-09-08T01:27:17+05:30",
+    "author": "grnoida.mohitsharma2007@gmail.com"
+  },
+  {
+    "sha": "6c5d04548b60c9665a099392bfba0cecfc722f95",
+    "message": "Fix server-connection test: use /api/health with 15s cold-start timeout\n\nThe test hit /health, which does not exist on the Vercel serverless\nmount (only /api/health), and its 4-5s timeout lost to cold starts \u2014\nso Test & save always reported \"Could not reach the server\" against\nthe deployed URL. Now tries /api/health first with a 15s timeout and\none automatic retry, falling back to /health for standalone LAN servers.\n\n\ud83e\udd16 Generated with Codebuff\nCo-Authored-By: Codebuff <noreply@codebuff.com>",
+    "timestamp": "2026-09-07T12:42:56+05:30",
+    "author": "grnoida.mohitsharma2007@gmail.com"
+  },
+  {
+    "sha": "9a45f92ce17a32bd95a1ccdf7dccfd03e3427492",
+    "message": "Release v1.0.7: directory, recipient picker, landing, OTP fix\n\n\ud83e\udd16 Generated with Codebuff\nCo-Authored-By: Codebuff <noreply@codebuff.com>",
+    "timestamp": "2026-09-07T12:28:40+05:30",
+    "author": "grnoida.mohitsharma2007@gmail.com"
+  },
+  {
+    "sha": "94779ef211623a37a8b0850b5f6dc4455a1d5a6a",
+    "message": "Remove chat transcript from repo\n\n\ud83e\udd16 Generated with Codebuff\nCo-Authored-By: Codebuff <noreply@codebuff.com>",
+    "timestamp": "2026-09-07T12:23:45+05:30",
+    "author": "grnoida.mohitsharma2007@gmail.com"
+  },
+  {
+    "sha": "0dfd22fdcd58b9dcf06bbfe7823d5858f94fec4c",
+    "message": "User directory, Mail Center recipient picker, Mongo translator fixes\n\n- GET /api/admin/directory: admin-only user list joined with classes, batches and academic year (email, enrollment no, department, role, status)\n- People page: full directory table with email links, enrollment, department, classes, batch/year columns plus role/department/batch filters\n- Mail Center: recipient picker with department, batch, year and enrollment search; send targeted mail to selected users via recipientEmails\n- Fix Mail Center offline glitch: catalog load auto-retries 3x before showing offline, SMTP banner only when catalog actually loaded\n- Mongo SQL translator: support column-list projections, lower(col) = ?, and IN (\u2026) \u2014 fixes send-otp account lookup (forgot-password OTP now delivers), reset-password lookup, signup duplicate check, attendance integrity checks and faculty approval on MongoDB\n- Landing page: GSAP + Lenis cinematic showcase with real app screenshots; settings page redesign with roomy padded rows; panel-body spacing\n\n\ud83e\udd16 Generated with Codebuff\nCo-Authored-By: Codebuff <noreply@codebuff.com>",
+    "timestamp": "2026-09-07T12:23:14+05:30",
+    "author": "grnoida.mohitsharma2007@gmail.com"
+  },
+  {
+    "sha": "302696e4bc3de93c8658f2bc74a19fdfbcfba5f1",
+    "message": "MongoDB Atlas wiring: dotenv dep for Vercel, idempotent seeding\n\n- Add dotenv to root dependencies \u2014 the serverless function imports server code that needs it, and @vercel/node only installs root deps\n- Make seedDefaults existence checks use SELECT * so the Mongo SQL translator resolves them; seeding is now idempotent and a warm start no longer falls back to SQLite on E11000\n- Server dotenv config uses override:true so a stale empty shell var can't shadow .env\n\n\ud83e\udd16 Generated with Codebuff\nCo-Authored-By: Codebuff <noreply@codebuff.com>",
+    "timestamp": "2026-09-07T11:23:08+05:30",
+    "author": "grnoida.mohitsharma2007@gmail.com"
+  },
+  {
+    "sha": "4e59e94617bc94ba2af7eadbcbf2691669a25b64",
+    "message": "UI polish v1.0.5: branded splash, topbar cleanup, dashboard mail panel\n\n- Android splash no longer shows a giant white box: proper transparent safe-zone glyph icon for API 31+ and dark branded full-screen splash backgrounds for older devices\n- Remove the MongoDB/Local chip from the top bar (visual noise); server connection now lives on the Profile page for every role with a test-and-save field\n- Admin dashboard gains a live \"Open requests\" Mail Center panel with tracking numbers\n- Mail Center offline hint updated to point at the new Profile location\n\n\ud83e\udd16 Generated with Codebuff\nCo-Authored-By: Codebuff <noreply@codebuff.com>",
+    "timestamp": "2026-09-07T10:20:29+05:30",
+    "author": "grnoida.mohitsharma2007@gmail.com"
+  },
+  {
+    "sha": "e94dd268be85b81e5d4850d874991bca44dcab06",
+    "message": "Frontend discoverability: Mail Center reachable everywhere, functional bell\n\n- Notification bell is now live: polls open Mail Center requests every 60s, shows a badge, and opens the Mail Center on tap (was decorative dead UI)\n- Mobile bottom nav always includes Mail Center for every role (was truncated to the first 4 items, hiding it on phones)\n- Dashboard quick-links: Mail Center button added to student, faculty, and admin overview headers\n- Mail Center shows an offline state with retry when the AttendX server is unreachable\n\n\ud83e\udd16 Generated with Codebuff\nCo-Authored-By: Codebuff <noreply@codebuff.com>",
+    "timestamp": "2026-09-07T09:37:36+05:30",
+    "author": "grnoida.mohitsharma2007@gmail.com"
+  },
+  {
+    "sha": "4f560976ca3ba6a4828eed4e321f6b18e6af0628",
+    "message": "Release v1.0.4: Mail Center, modal fix, version bump\n\n\ud83e\udd16 Generated with Codebuff\nCo-Authored-By: Codebuff <noreply@codebuff.com>",
+    "timestamp": "2026-09-07T09:19:17+05:30",
+    "author": "grnoida.mohitsharma2007@gmail.com"
+  },
+  {
+    "sha": "d493291d4d0c2a9256c804feaa75745fc52128eb",
+    "message": "Mail Center: all institutional mail events with tracking, modal glitch fix\n\n- Fix server-connection modal rendering inline: add missing .modal-backdrop/.modal-content CSS and correct the input class in Shell\n- New Mail Center for all roles: raise service requests, complaints, system errors, server-down reports, attendance data requests; admins compose notices, broadcast app updates, send targeted activation mail\n- Every trackable request gets an ATX-S-XXXXXX request number with copy-to-clipboard and track-by-number search\n- server/src/notices.ts: 11-type mail catalog, role-aware listing, admin resolution with emailed outcome notes over Gmail SMTP\n- Automatic mails: new-user onboarding welcome, admin temporary-password delivery, account activation/deactivation via new PATCH /api/admin/users/:id/status (wired into the People page toggle)\n\n\ud83e\udd16 Generated with Codebuff\nCo-Authored-By: Codebuff <noreply@codebuff.com>",
+    "timestamp": "2026-09-07T02:48:39+05:30",
+    "author": "grnoida.mohitsharma2007@gmail.com"
+  },
+  {
+    "sha": "10ea24c0299df8600b9fed5f6537629c18da6eca",
+    "message": "MongoDB migration, OTP mail flows, query tracking, update system, APK hardening\n\nBackend (Express + MongoDB/SQLite):\n- Central Gmail SMTP mailer (mailer.ts) powering OTP codes, faculty invite\n  codes, attendance-query notifications, and admin mass-mail notices\n- OTP password reset: rate limiting, attempt tracking, reset-password endpoint\n- Attendance query/complaint system with ATX-Q tracking IDs, public tracking\n  endpoint, and student/admin email notifications (queries.ts)\n- Faculty verification lifecycle: admin approve -> SMTP invite code -> activation\n- Data API rebuilt: auth on reads, boolean/IN/neq filters, relation enrichment\n  (classes+schedules, records+session+class), virtual views\n  (student_attendance_summary, faculty_assignments, admin_password_reset_queue),\n  role-based write rules, settings upsert endpoint\n- Attendance integrity: QR nonce replay rejection, device integrity verdicts,\n  admin review decisions audit-logged\n- App update service: /api/app/latest resolves latest APK from GitHub Releases\n\nFrontend (React):\n- Supabase client fully replaced by AttendX API client; Supabase copy removed\n- New Attendance Queries view (raise complaint, tracking number, admin queue)\n- OTP password reset now completes with a new-password step\n- Native detection hardened (WebView UA) so the APK download button never\n  shows inside the installed app\n- In-app Update banner when a newer APK is published\n- Admin Settings: Mass Mail panel with audience picker, recipient count and\n  APK-link attachment; boolean settings render as toggles\n- Devtools blocking + AttendX-branded console guard on web\n\nAndroid:\n- DeveloperMode plugin adds mock-location (AppOps/provider/setting) and\n  USB-debugging detection\n- Fixed invalid splash.png (JPEG misnamed as PNG) that broke release builds\n- Release signing configured; versionCode 3 (v1.0.3)\n- AttendX.apk removed from git; artifacts now ship via GitHub Releases\n\nGenerated with Codebuff \ud83e\udd16\nCo-Authored-By: Codebuff <noreply@codebuff.com>",
+    "timestamp": "2026-09-07T02:29:22+05:30",
+    "author": "grnoida.mohitsharma2007@gmail.com"
+  },
+  {
+    "sha": "9513f8d5752194dd5e336b400f5d4d30964a2980",
+    "message": "Release: Updated Android APK with security fixes\n\nNew APK build (74.9 MB) with critical security improvements:\n- HMAC verification for QR token validation\n- Graceful fallback for face embedding extraction\n- Enhanced QR token extraction for class joining\n- Improved location capture performance\n- Enhanced native platform detection\n- Updated server labels to reflect MongoDB/Local backend\n- Fixed filter encoding in LocalQueryBuilder\n\nDemo credentials working:\n- admin@attendx.edu / Admin@123456\n- faculty@attendx.edu / Faculty@123456\n- student@attendx.edu / Student@123456\n\nGenerated with Devin (https://devin.ai)\n\nCo-Authored-By: Devin <158243242+devin-ai-integration[bot]@users.noreply.github.com>",
+    "timestamp": "2026-09-06T23:51:08+05:30",
+    "author": "grnoida.mohitsharma2007@gmail.com"
+  },
+  {
+    "sha": "4e9048b42fc7143118250f1100b5a66d1165bbbc",
+    "message": "Critical security fix: Remove leaked credentials from git history\n\nThis commit creates a clean history without leaked SMTP passwords and JWT tokens.\nPrevious commits containing sensitive credentials have been removed.\n\nSecurity improvements:\n- Added HMAC verification to QR token parsing\n- Added graceful fallback for face embedding extraction\n- Fixed QR token extraction for class joining\n- Improved location capture performance\n- Enhanced native platform detection\n- Updated server labels to reflect MongoDB/Local backend\n- Fixed filter encoding in LocalQueryBuilder\n\nGenerated with Devin (https://devin.ai)\n\nCo-Authored-By: Devin <158243242+devin-ai-integration[bot]@users.noreply.github.com>",
+    "timestamp": "2026-09-06T23:39:56+05:30",
+    "author": "grnoida.mohitsharma2007@gmail.com"
+  }
+]

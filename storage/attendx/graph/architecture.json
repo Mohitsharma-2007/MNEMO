@@ -1,0 +1,163 @@
+{
+  "nodes": [
+    {
+      "id": "architecture:frontend",
+      "category": "frontend",
+      "label": "Frontend & UI",
+      "confidence": "observed",
+      "signals": [
+        "UI routes, components, styles, or browser assets detected"
+      ],
+      "paths": [
+        "ATTENDANCE_SYSTEM_PRD.md",
+        "README.md",
+        "android/app/.gitignore",
+        "android/app/build.gradle",
+        "android/app/capacitor.build.gradle",
+        "android/app/proguard-rules.pro",
+        "android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java",
+        "android/app/src/main/AndroidManifest.xml",
+        "android/app/src/main/java/com/attendx/app/MainActivity.kt",
+        "android/app/src/main/java/com/attendx/app/api/Api.kt",
+        "android/app/src/main/java/com/attendx/app/api/SessionStore.kt",
+        "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+        "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+        "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+        "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+        "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+        "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+        "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt"
+      ],
+      "explanation": "Frontend & UI is supported by ATTENDANCE_SYSTEM_PRD.md, README.md, android/app/.gitignore and more files."
+    },
+    {
+      "id": "architecture:backend",
+      "category": "backend",
+      "label": "Backend / Core Engine",
+      "confidence": "observed",
+      "signals": [
+        "Server, API, core compute, or backend language signals detected"
+      ],
+      "paths": [
+        "ATTENDANCE_SYSTEM_PRD.md",
+        "README.md",
+        "android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java",
+        "android/app/src/main/AndroidManifest.xml",
+        "android/app/src/main/java/com/attendx/app/MainActivity.kt",
+        "android/app/src/main/java/com/attendx/app/api/Api.kt",
+        "android/app/src/main/java/com/attendx/app/api/SessionStore.kt",
+        "android/app/src/main/java/com/attendx/app/ui/AppRoot.kt",
+        "android/app/src/main/java/com/attendx/app/ui/ChangePasswordScreen.kt",
+        "android/app/src/main/java/com/attendx/app/ui/DashboardScreen.kt",
+        "android/app/src/main/java/com/attendx/app/ui/LoginScreen.kt",
+        "android/app/src/main/java/com/attendx/app/ui/MailCenterScreen.kt",
+        "android/app/src/main/java/com/attendx/app/ui/MarkScreen.kt",
+        "android/app/src/main/java/com/attendx/app/ui/PeopleScreen.kt",
+        "android/app/src/main/java/com/attendx/app/ui/ProfileScreen.kt",
+        "android/app/src/main/java/com/attendx/app/ui/SessionScreen.kt",
+        "android/app/src/main/java/com/attendx/app/ui/Workspace.kt",
+        "android/app/src/main/java/com/attendx/app/ui/theme/Theme.kt"
+      ],
+      "explanation": "Backend / Core Engine is supported by ATTENDANCE_SYSTEM_PRD.md, README.md, android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java and more files."
+    },
+    {
+      "id": "architecture:database",
+      "category": "database",
+      "label": "Database & Storage",
+      "confidence": "observed",
+      "signals": [
+        "Schema, migration, persistence, connectors, or database dependencies detected"
+      ],
+      "paths": [
+        "ATTENDANCE_SYSTEM_PRD.md",
+        "README.md",
+        "api/index.ts",
+        "capacitor.config.ts",
+        "implementation_plan.md",
+        "mongodb-atlas/appservices.json",
+        "mongodb-atlas/functions/issueQr.js",
+        "mongodb-atlas/functions/submitAttendance.js",
+        "package-lock.json",
+        "package.json",
+        "processing-service/README.md",
+        "processing-service/app/main.py",
+        "release_notes_v1.0.8.md",
+        "release_notes_v2.0.0.md",
+        "releases/RELEASE_NOTES.md",
+        "server/package-lock.json",
+        "server/package.json",
+        "server/src/account.ts"
+      ],
+      "explanation": "Database & Storage is supported by ATTENDANCE_SYSTEM_PRD.md, README.md, api/index.ts and more files."
+    },
+    {
+      "id": "architecture:infrastructure",
+      "category": "infrastructure",
+      "label": "Infrastructure & Runtime",
+      "confidence": "observed",
+      "signals": [
+        "Container, deployment, environment, or infrastructure configuration detected"
+      ],
+      "paths": [
+        ".env.example",
+        "processing-service/Dockerfile",
+        "processing-service/requirements.txt"
+      ],
+      "explanation": "Infrastructure & Runtime is supported by .env.example, processing-service/Dockerfile, processing-service/requirements.txt."
+    },
+    {
+      "id": "architecture:docs",
+      "category": "docs",
+      "label": "Documentation & Specs",
+      "confidence": "observed",
+      "signals": [
+        "Repository documentation, tutorials, and standards detected"
+      ],
+      "paths": [
+        "ATTENDANCE_SYSTEM_PRD.md",
+        "README.md",
+        "freebuff-chat-2026-09-06T19-19-19.898Z.md",
+        "implementation_plan.md",
+        "processing-service/README.md",
+        "release_notes_v1.0.8.md",
+        "release_notes_v2.0.0.md",
+        "releases/RELEASE_NOTES.md"
+      ],
+      "explanation": "Documentation & Specs is supported by ATTENDANCE_SYSTEM_PRD.md, README.md, freebuff-chat-2026-09-06T19-19-19.898Z.md and more files."
+    }
+  ],
+  "edges": [
+    {
+      "source": "architecture:frontend",
+      "target": "architecture:backend",
+      "label": "browser requests API / core engine",
+      "confidence": "inferred"
+    },
+    {
+      "source": "architecture:backend",
+      "target": "architecture:database",
+      "label": "engine reads/writes storage & connectors",
+      "confidence": "inferred"
+    },
+    {
+      "source": "architecture:infrastructure",
+      "target": "architecture:backend",
+      "label": "deployment packages service & engine",
+      "confidence": "inferred"
+    },
+    {
+      "source": "architecture:infrastructure",
+      "target": "architecture:frontend",
+      "label": "deployment packages UI assets",
+      "confidence": "inferred"
+    },
+    {
+      "source": "architecture:docs",
+      "target": "architecture:backend",
+      "label": "documentation defines APIs & architecture",
+      "confidence": "inferred"
+    }
+  ],
+  "deterministic": true,
+  "note": "Layers are inferred from tracked paths and dependency/configuration signals; they do not prove runtime traffic."
+}
